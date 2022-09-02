@@ -1,0 +1,580 @@
+.sectiona{
+	background-color:yellow;
+	height:90%;
+}
+.diva{
+	border:2px solid green; 
+    width:99%;
+    height:80px;
+	background-color:green;
+}
+.divia{
+	border:2px solid red;
+	width:10%; 
+    height:30px; 
+    margin-top:20px;
+	background-color:red;
+	margin-left:30px;
+}
+.divib{
+	border:2px solid blue;
+	width:40%;
+	height:30px; 
+	margin-left:700px;
+	 margin-top:-30px;
+	 background-color:blue;
+}
+.sectionb{
+	margin-left:95p;
+}
+ .divb{
+    border:2px solid orange; 
+	background-color:orange;
+	width:49%;
+	height:100px;
+	margin-bottom:400px;
+	margin:200px; 
+ }
+ .divc{
+	border:2px solid blue; 
+	background-color:blue;
+	width:20%; 
+	height:50px; 
+	margin-right:700px;
+	margin-top:-150px; 
+	float:right;
+ }
+ .sectionc{
+	 border:2px solid orange; 
+	 background-color:orange; 
+	 width:99%;
+	 height:80px;
+	 display:flex; 
+	 padding:20px; 
+	 justify-content:space-between;
+ }
+ .divd{
+	 border:2px solid purple;
+	 width:10%; 
+	 height:30px;
+	 margin-left:10px; 
+	 background-color:purple;
+ }
+ .dive{
+	 border:2px solid purple;
+	 width:10%; 
+	 height:30px;
+	 margin-left:10px;
+	 background-color:purple;
+ }
+ .divf{
+	 border:2px solid purple;
+	 width:10%; 
+	 height:30px;
+	 margin-left:10px; 
+	 background-color:purple;
+ }
+ .divg{
+	 border:2px solid purple;
+	 width:10%; 
+	 height:30px;
+	 margin-left:10px;
+	 background-color:purple;
+ }
+ .divh{
+	 border:2px solid purple;
+	 width:10%; 
+	 height:30px;
+	 margin-left:10px;
+	 background-color:purple;
+ }
+ .divi{
+	 border:2px solid purple;
+	 width:10%; 
+	 height:30px;
+	 margin-left:10px; 
+	 background-color:purple;
+ }
+.divj{
+     border:3px solid pink;
+	 width:99%; 
+	 height:400px;
+	 margin-top:30px;
+	 background-color:pink;
+}
+.divic{
+	border:3px solid brown;
+	background-color:brown;
+	width:40%;
+     height:300px;
+	margin:30px;
+}
+.divid{
+	border:3px solid yellow;
+	background-color:yellow;
+   width:40%; 
+	height:90px;
+	margin:40px; 
+	 float:right;
+    margin-top:-350px;
+}
+.divie{
+	border:3px solid red;
+	background-color:red;
+		width:20%;
+       height:200px;
+		margin:60px;
+		margin-top:-200px;
+		float:left;
+		margin-left:600px;
+}
+.divif{
+    border:3px solid green; 
+	background-color:green;
+	width:20%; 
+	height:200px;
+	margin:60px;
+	margin-top:-250px;
+	float:left;
+	margin-left:900px;
+}
+.divk{
+	border:2px solid blue; 
+    background-color:blue;
+	width:99%;
+	height:80px;
+	margin:30px;
+	margin-right:100px;
+	flex:wrap;
+}
+.sectionf{
+	border:2px solid brown; 
+	width:99%;
+	height:800px;
+	margin-left:50px;
+	background-color:brown;
+}
+.divl{
+	border:2px solid green;
+     background-color:green;							
+	width:39%;
+	height:150px;
+     margin-top:50px;
+	margin-left:400px;
+}
+.sectiong{
+	margin-left:50px;
+}
+.divm{
+	border:2px solid pink;
+     background-color:pink;  								
+	 width:25%;
+	 height:250px;
+	margin-top:50px;
+}
+.divn{
+	border:2px solid pink;
+    background-color:pink;								
+     width:25%;
+     height:250px;
+	margin-top:50px;
+	margin-top:-250px;
+	margin-left:400px;
+}
+.divo{
+	 border:2px solid pink; 
+	background-color:pink;
+	width:25%;
+	 height:250px;
+	margin-top:50px;
+    margin-top:-250px;
+	margin-left:800px;
+}
+.divp{
+     border:2px solid pink; 
+	background-color:pink;
+	width:25%;
+	 height:200px;
+	 margin-top:25px;
+}
+.divq{
+	border:3px solid pink;
+    background-color:pink;								
+    width:25%;
+    height:200px;
+	margin-top:-200px;
+	margin-left:400px;
+}
+.divr{
+	border:3px solid pink;
+    background-color:pink;							
+	width:25%;
+	height:200px;
+    margin-top:-200px;
+    margin-left:800px;
+}
+.divs{
+    border:3px solid green;
+	background-color:green;
+	width:99%;
+	height:250px;
+	margin-top:50px;
+}
+.divig{
+	border:3px solid red;
+	background-color:red;
+	 width:49%;
+	 height:100px;
+	margin-top:50px;
+	 margin-left:300px;
+}
+.divih{
+	border:3px solid blue;
+	background-color:blue;
+	 width:20%; 
+	height:50px; 
+	margin-right:500px;
+	margin-top:20px; 
+	 float:right;
+}
+.divt{
+	border:3px solid yellow;
+	width:99%; 
+	height:450px;
+	background-color:yellow;
+	margin-top:30px;
+}
+.divii{
+	border:3px solid pink;
+	background-color:pink;
+	 width:49%;
+	height:100px;
+	margin-top:80px;
+	margin-left:300px;
+}
+.sectioni{
+	 margin-left:100px;
+}
+.divu{
+	border:2px solid black; 
+	background-color:black;
+    width:25%;
+	height:200px;
+    margin-top:25px;
+}
+.divv{
+	border:3px solid black;
+	background-color:black;
+    width:25%;
+	height:200px;
+	margin-top:-200px;
+	margin-left:400px;
+}
+.divx{
+	border:3px solid black;
+	background-color:black;
+	width:25%;
+	height:200px;
+	 margin-top:-200px;
+	 margin-left:800px;
+}
+.divy{
+	border:3px solid blue;
+	background-color:blue;
+	margin-left:30px; 
+	width:99%; height:1150px;
+	margin-top:30px;
+}
+.divij{
+	border:3px solid pink;
+	background-color:yellow;
+    width:49%;
+    height:100px;
+	margin-top:90px;
+	 margin-left:300px;
+}
+.sectionk{
+	margin-left:70px;
+}
+.divz{
+	border:2px solid pink;
+    background-color:pink;  								
+    width:25%;
+	height:250px;
+	margin-top:50px;
+}
+.diva1{
+	border:2px solid pink;
+     background-color:pink;				
+	 width:25%;
+    height:250px;
+    margin-top:50px;
+    margin-top:-250px;
+	margin-left:400px;
+}
+.divb1{
+	border:2px solid pink; 
+	background-color:pink;
+	width:25%;
+	height:250px;
+     margin-top:50px;
+	margin-top:-250px;
+    margin-left:800px;
+}
+.divc1{
+	border:2px solid pink; 
+	 background-color:pink;
+	 width:25%;
+	height:250px;
+    margin-top:25px;
+}
+.divd1{
+    border:3px solid pink;
+    background-color:pink;								
+    width:25%;
+	height:250px;
+    margin-top:-250px;
+	margin-left:400px;
+}
+.dive1{
+	border:3px solid pink;
+    background-color:pink;								
+     width:25%;
+	 height:250px;
+	margin-top:-250px;
+	margin-left:800px;
+}
+.divf1{
+	border:2px solid pink; 
+	 background-color:pink;
+    width:25%;
+	height:250px;
+	 margin-top:25px;
+}
+.divg1{
+	border:3px solid pink;
+    background-color:pink;								
+    width:25%;
+    height:250px;
+	 margin-top:-250px;
+	 margin-left:400px;
+}
+.divh1{
+	border:3px solid pink;
+    background-color:pink;						
+	width:25%;
+	 height:250px;
+	 margin-top:-250px;
+      margin-left:800px;
+}
+.divi1{
+   border:3px solid green; 
+   width:99%;
+   background-color:green;
+   height:450px;
+   margin-top:30px;
+}
+.divik{
+	border:3px solid pink;
+	background-color:pink;
+	width:49%;
+	height:100px;
+	margin-top:90px;
+   margin-left:300px;
+}
+.sectionm{
+	margin-left:50px;
+}
+.divj1{
+    border:2px solid orange; 
+	background-color:orange;
+	width:20%;
+	height:200px;
+	margin-top:25px;
+}
+.divk1{
+    border:3px solid orange;
+	background-color:orange;
+	width:20%;
+	height:200px;
+	margin-top:-200px;
+	margin-left:300px;
+}
+.divl1{
+	border:3px solid orange;
+	background-color:orange;
+	width:20%;
+	height:200px;
+	margin-top:-200px;
+	margin-left:600px;
+}
+.divm1{
+	border:3px solid orange;
+	background-color:orange;
+	width:20%;
+	height:200px;
+	margin-top:-200px;
+	margin-left:900px;
+}
+.divn1{
+    border:3px solid red;
+	width:100%%; 
+	height:450px;
+	margin-top:30px; 
+	background-color:red;
+}
+.divil{
+    border:3px solid pink;
+	background-color:pink;
+	width:49%;
+	height:100px;
+	 margin-top:90px;
+    margin-left:300px;
+}
+.sectionn{
+    margin-left:50px;
+}
+.divo1{
+    border:2px solid yellow; 
+	background-color:yellow;
+	width:20%;
+	height:200px;
+	margin-top:25px;
+}
+.divp1{
+    border:3px solid yellow;
+	background-color:yellow;
+	width:20%;
+    height:200px;
+	margin-top:-200px;
+	 margin-left:300px;
+}
+.divq1{
+    border:3px solid yellow; 
+	background-color:yellow;
+	width:20%;
+	height:200px;
+	margin-top:-200px;
+	 margin-left:600px;
+}
+.divr1{
+    border:3px solid yellow;
+	background-color:yellow;
+	width:20%;
+	height:200px;
+    margin-top:-200px;
+	margin-left:900px;
+}	
+.divs1{
+    border:3px solid blue;
+	width:99%; 
+	height:700px;
+	margin-top:30px;
+	background-color:blue;
+}
+.divim{
+    border:3px solid pink;
+	background-color:pink;
+	width:49%;
+	height:100px;
+	margin-top:90px;
+    margin-left:300px;
+}
+.divt1{
+    border:3px solid red; 
+	background-color:red;
+	width:99%;
+	height:400px;
+	margin-top:50px;
+}
+.divu1{
+    border:3px solid green;
+	width:99%; 
+	height:800px;
+	margin-top:30px; 
+	background-color:green;
+}
+.divin{
+    border:3px solid pink;
+	background-color:pink;
+	width:59%;
+    height:100px;
+	margin-top:90px;
+    margin-left:300px;
+}										 
+.divv1{
+    border:2px solid purple;
+	background-color:purple;
+    width:50%;
+    height:200px;
+	 margin-top:15px;
+}
+.divx1{
+    border:3px solid purple;
+	background-color:purple;
+	width:30%;
+	height:400px;
+	margin-top:-200px;
+	margin-left:800px;
+}
+.divy1{
+    border:3px solid purple;
+	background-color:purple;
+	width:20%;
+	height:200px;
+	margin-top:-65px;
+}
+.divz1{
+    border:3px solid purple;
+	background-color:purple;
+	width:20%;
+	height:200px;
+	margin-top:-200px;
+	margin-left:400px;
+}
+.diva2{
+    border:3px solid blue; 
+	width:99%; 
+	height:500px;
+	margin-top:30px;
+	background-color:#00ccff;
+	display:flex;
+} 
+.divio{
+	border:2px solid black; 
+	background-color:orange;
+	width:20%;
+	 height:300px;
+	margin-top:100px;
+	margin-left:30px;
+}
+.divip{
+	border:3px solid black;
+	background-color:orange;
+	width:20%;
+	height:300px;
+	margin-top:100px;
+	margin-left:30px;
+}
+.diviq{
+	border:3px solid black;
+	background-color:orange; 
+	width:20%;
+    height:300px;
+	margin-top:100px;
+	margin-left:30px;
+}
+.divir{
+	border:3px solid black; 
+	background-color:orange;
+	width:28%;
+    height:300px;
+    margin-top:100px;
+    margin-left:30px;
+}
+.foot{
+	border:1px solid black;
+	background-color:#ff0080;
+	width:99%;
+	height:200px;
+}
