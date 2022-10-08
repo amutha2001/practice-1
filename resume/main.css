@@ -1,0 +1,234 @@
+
+.resume{
+	border:1px solid white;
+	width:60%;
+	height:150vh;
+	margin:auto;
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+	
+}
+.container{
+    margin:auto;
+	width:80%;
+	}
+header{
+	
+	text-align:center;
+}
+.head h1{
+	font-size:30px;
+}
+ h1{
+	font-size:25px;
+	margin-top:30px;
+}
+ p{
+	padding-top:10px;
+	font-size:20px;
+	line-height:25px;
+}
+hr{
+	margin-top:30px;
+}
+h2{
+	font-weight:bold;
+	font-size:20px;
+	padding-top:10px;
+}
+.skill{
+	border:1px solid black;
+	width:100%;
+	height:15vh;
+	margin-top:20px;
+	display:flex;
+}
+.skill-1{
+	border-bottom:1px;
+	width:60%;
+	height:15vh;
+	border-right:1px solid black;
+}
+.skill-1 h2{
+	font-size:23px;
+    
+}
+.skill-2{
+	
+	border-left:1px;
+
+	width:40%;
+	height:15vh;
+}
+.attain{
+	border:1px solid black;
+	width:100%;
+	height:15vh;
+	margin-top:80px;
+}
+ li{
+	list-style-type:disc;
+	margin-left:40px;
+}
+
+@media(min-width:360px){
+	 .head h1{
+		font-size:18px;
+	}
+
+}
+@media(min-width:768px){
+	 .head h1{
+		font-size:21px;
+	}
+	
+}
+@media(min-width:992px){
+	 .head h1{
+		font-size:25px;
+	}
+	
+}
+@media(min-width:1024px){
+	 .head h1{
+		font-size:30px;
+
+}
+
+
+@media(min-width:360px){
+	 h1{
+		font-size:16px;
+	}
+	 p{
+		font-size:15px;
+	}
+}
+@media(min-width:768px){
+	 h1{
+		font-size:18px;
+	}
+	 p{
+		font-size:17px;
+	}
+}
+@media(min-width:992px){
+	 h1{
+		font-size:23px;
+	}
+	 p{
+		font-size:19px;
+	}
+}
+@media(min-width:1024px){
+	 h1{
+		font-size:25px;
+	}
+	 p{
+		font-size:20px;
+	}
+}
+
+
+
+@media(min-width:360px){
+	.skill-1 h2{
+		font-size:13px;
+	}
+}
+@media(min-width:768px){
+	.skill-1 h2{
+		font-size:15px;
+	}
+}
+@media(min-width:992px){
+	.skill-1 h2{
+		font-size:17px;
+	}
+}
+@media(min-width:1024px){
+	.skill-1 h2{
+		font-size:23px;
+	}
+}
+
+
+@media(min-width:360px){
+	.skill-1{
+		font-size:13px;
+	}
+}
+@media(min-width:768px){
+	.skill-1{
+		font-size:15px;
+	}
+}
+@media(min-width:992px){
+	.skill-1{
+		font-size:18px;
+	}
+}
+@media(min-width:1024px){
+	.skill-1{
+		font-size:23px;
+	}
+}
+.tec{
+	border:1px solid white;
+	width:60%;
+	height:150vh;
+	margin:auto;
+	margin-top:20px;
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+}
+.ski{
+	display:flex;
+	justify-content:space-between;
+}
+.ski p{
+	color:#3498DB ;
+}
+.pro{
+	border:1px solid black;
+	height:10vh;
+	
+}
+.proj{
+	border:1px solid black;
+	height:20vh;
+}
+.project{
+	padding-top:50px;
+}
+
+
+.web{
+	border:1px solid white;
+	width:60%;
+	height:150vh;
+	margin:auto;
+	margin-top:20px;
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+}
+.dev{
+	border:1px solid black;
+	height:10vh;
+	
+}
+.develop{
+	border:1px solid black;
+	height:20vh;
+}
+.web{
+	padding-top:50px;
+}
+.decla{
+	padding-top:50px;
+}
+.site{
+	padding-top:50px;
+}
+.name{
+	margin-top:50px;
+    text-align:center;
+	margin-left:300px;
+}
