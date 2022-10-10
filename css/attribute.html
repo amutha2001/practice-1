@@ -1,0 +1,74 @@
+<html>
+<head>
+   <title>Attribute</title>
+</head>
+<style>
+a[target]{
+ color:red;
+ }
+ a[target="_blank"]{
+ color:green;
+ }
+ [class$=book]{
+   color:blue;
+}
+[class^=n]{
+   color:red;
+}
+.star [class*=me]{
+   color:green;
+}
+
+[class|=h]{
+   color:orange;
+}
+
+[class~=nature]{
+   color:yellow;
+}
+
+
+
+</style>
+<body>
+                   <!-- 5.Attribute selectors	     -->
+					<!-- Attribute ,Attribute value , ^ ,$,* ,|,~-->
+					
+					
+					<h2>Attribute</h2>
+					  <a href="https://bootstrapmade.com/" target="_blank">boostrapmade </a>
+					  <a href="https://bootstrapmade.com/" target="_button">boostrapmade </a>
+					  <a href="https://bootstrapmade.com/" target="_top">boostrapmade</a>
+				
+                <!-- $ --> <!--identify the last word same--> 
+					<h1 class="book">Ponniyin selvan 1</h1>
+					<h1 class="second">Ponniyin selvan 2</h1>
+					<h1 class="first book">Ponniyin selvan 3</h1>
+					<h1 class="three book">Ponniyin selvan 4</h1><hr>
+					
+					
+				<!-- ^	starting letter same -->
+					<h1 class="n">Ponniyin selvan 1</h1>
+					<h1 class="next">Ponniyin selvan 2</h1>
+					<h1 class="seco">Ponniyin selvan 3</h1>
+					<h1 class="three">Ponniyin selvan 4</h1><hr>
+					
+				<!-- * identify the class name starting word same -->
+					<div class="star">
+						<h1 class="me">Ponniyin selvan 1</h1>
+						<h1 class="you">Ponniyin selvan 2</h1>
+						<h1 class="your">Ponniyin selvan 3</h1>
+						<h1 class="mee">Ponniyin selvan 4</h1>
+					</div><hr>
+				<!-- | ientify the class name in starting word and undercourse	 -->
+					<h1 class="q">Amutha</h1>
+					<h1 class="h-1">Monisha</h1>
+					<h1 class="h-2">Aruna</h1><hr>
+					
+				<!-- ~ --> <!--identify the word same-->
+				    <h1 class="this is nature">flower</h1>
+				    <h1 class="this is animal">dog</h1>
+				    <h1 class="this is birds">sparrow</h1>
+				    <h1 class="this is nature">trees</h1>
+</body>
+</html>

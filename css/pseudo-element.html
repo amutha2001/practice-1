@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>pseudo-element</title>
+	<style>
+	   .para::first-line{
+	    color:blue;
+	   font-weight:bold;
+       }
+       .letter::first-letter{
+	   font-size:2rem;
+       }
+      .emo p::before{
+      content:"Amutha";
+	  font-size:1.5rem;
+      }
+     .emo p:after{
+	 content:"hello";
+	 font-size:1.5rem;
+     }
+	</style>
+</head>
+
+<body>
+             
+                <h1>Pseudo-element selector</h1>
+					<p>1.First line</p>	
+					<p>2.First letter</p>
+					<p>3.before</p>
+					<p>4.after</p>
+				<div class="para">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="letter">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="emo">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+
+</body>
