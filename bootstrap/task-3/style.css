@@ -1,0 +1,57 @@
+.head{
+	text-align:center;
+}
+
+.box{
+height:75vh;
+text-align:center;
+
+}
+.box h5{
+	margin-top:10px;
+}
+.pri{
+	color:#242E85 ;
+}
+.pic{
+	width:60%;
+	height:20vh;
+}
+.pic img{
+	width:100%;
+}
+.box h4{
+    
+	font-size:30px;
+	margin-top:10px;
+}
+.free{
+	 font-size:20px;
+	 color:#D6DBDF;
+ }
+ .month{
+	 margin-right:20px;
+ }
+ .month li{
+	 list-style-type:none;
+	 padding-top:10px;
+ }
+ .na{
+	text-decoration:line-through;
+	color:#D6DBDF;
+ }
+ .box a{
+	 border:1px solid #3498DB;
+	 border-radius:20px;
+	 padding:6px;
+	 padding-left:30px;
+	 padding-right:30px;
+	 text-decoration:none;
+	 
+ }
+ .ul{
+	 color:#FA24D0;
+ }
+ .st{
+	 color:#15EE0A ;
+ }
