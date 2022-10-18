@@ -1,0 +1,124 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+	<style>
+	    .flex {
+			  width: 80%;
+			  height: 50vh;
+			  border: 1px solid ;
+			  display:flex;
+        }
+		.grow{
+		border:1px solid;
+		
+		width:20%;
+		height:100%;
+		
+		}
+		.flexshrink {
+			  width: 80%;
+			  height: 50vh;
+			  border: 1px solid ;
+			  display:flex;
+        }
+		.shrink{
+		border:1px solid;
+		
+		width:20%;
+		height:100%;
+		
+		}
+		.flexdir{
+		 width:80%;
+		 height:50vh;
+		 border:1px solid;
+		 display:flex;
+		 flex-direction:row-reverse;
+		
+		 }
+		 .direction{
+		     width:20%;
+			 height:10vh;
+			 }
+         .wrap {
+		     border:1px solid ;
+			 height:50vh;
+			 width:40%;
+             display:flex;
+			 flex-wrap:wrap;
+			 flex-flow:colum-reverse wrap;
+			}
+		.wrap-1{
+		    border:1px solid ;
+			width:30%;
+		    height:10vh;
+			
+			}
+	</style>
+</head>
+<body>
+            <!----flex grow and flex basis-->
+    <div class="flex">
+	    <div class="grow" style="background-color:red; flex-grow:2;">
+		</div>
+		<div class="grow" style="background-color:orange;" >
+		</div>
+		<div class="grow" style="background-color:purple; flex-basis:10px;">
+		</div>
+		<div class="grow" style="background-color:green; flex-grow:3;">
+		</div>
+		
+    </div>
+	<hr>
+	             <!---flex shrink--->
+	<div class="flexshrink">
+	    <div class="shrink" style="background-color:red; flex-shrink:4;">
+		</div>
+		<div class="shrink" style="background-color:orange;">
+		</div>
+		<div class="shrink" style="background-color:purple;">
+		</div>
+		<div class="shrink" style="background-color:green;">
+		</div>
+		
+    </div>
+	          
+	<hr>
+	<div class="flexdir">
+	    <div class="direction" style="background-color:yellow; ">
+		    div 1
+		</div>
+		<div class="direction" style="background-color:pink;" >
+		     div 2
+		</div>
+		<div class="direction" style="background-color:red;">
+		     div 3
+		</div>
+		<div class="direction" style="background-color:blue;">
+		     div 4
+		</div>
+		
+    </div>
+	<h1>flex-wrap</h1>
+	<div class="wrap">
+	    <div class="wrap-1">
+		    <h2>amutha</h2>
+		</div>
+        <div class="wrap-1">
+		    <h2>kaviya</h2>
+		</div>
+        <div class="wrap-1">
+		    <h2>saranya</h2>
+		</div>
+        <div class="wrap-1">
+		    <h2>priya</h2>
+		</div>		
+	</div>
+	
+	
+</body>
+	
+</html>

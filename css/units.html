@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css units</title>
+	<style>
+	   html{
+	   font-size:12px;
+	   }
+	   .rem p{
+	      font-size:2rem;
+		  }
+		.em{
+		  font-size:20px;
+		  }
+		.par{
+		font-size:2em;
+		}
+		.cm{
+		font-size:1mm;
+		}
+		.vh{
+		border:1px solid red;
+		height:20vh;
+		width:90%;
+		}
+		.vw{
+		border:1px solid green;
+		width:50vw;
+		height:20vh;
+		}
+		.vmin{
+		    font-size:3vmin;
+		}
+		.vmax{
+		    font-size:5vmax;
+		}
+		
+	</style>
+</head>
+           
+<body>
+                         <!---css units-->
+		            <!---Absolute ,Relative---->
+		 <!---cm ,inc , pt ,px ,picas ,mm-->   <!--1cm 48px ,1pc 12 point , 1in = 96px = 2.54cm -->
+		<h1>Absolute</h1>
+		<h2>1.cm</h1>
+        <div class="cm">
+		    <h3>This is a flower</h3>
+			<h4>i am very happy</h4>
+			<p>This is my favorite book</p>
+		</div>
+        <hr>
+                                <!---relative-->
+
+                    <!--vh ,vw , vmin ,vmax , em , rem ,ex , ch-->
+        <div class="vh">
+		</div>
+		<hr>
+		<div class="vw">
+		</div>
+		<hr>
+		<div class="rem">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>	
+		</div>
+		<hr>
+		<div class="em">
+		   <p class="par">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+		</div>
+		<hr>
+		<div class="vmin">
+		    <h1>welcome</h1>
+		</div>
+		<hr>
+		<div class="vmax">
+		    <h1>happy</h1>
+		</div>
+		<hr>
+</body>
