@@ -264,18 +264,22 @@
 .video iconify-icon{
 	font-size:1.3rem;
 	color:white;
-	margin-top:5px;
 }
 .video{
-	position:absolute;
-	border:1px solid #428BCA;
-	padding:15px;
-	border-radius:50%;
-	background-color:#428BCA;
-	border:13px solid #94B4CD;
-	top:0;
-	margin-top:7rem;
-	margin-left:8rem;
+	top: 35%;
+    left: 40%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #428BCA;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #428BCA;
+    border: 13px solid #94B4CD;
+}
+    
 }
 .abtp{
 	width:75%;
@@ -330,10 +334,7 @@
 	.abtp p{
 		font-size:15px;
 	}
-	.video{
-		margin-top:13rem;
-	    margin-left:14rem;
-	}
+
 }
 /* box */
  .boxes{
@@ -343,9 +344,9 @@
 		gap:10px;
 		padding:20px;
 	}
-	.b1, .b2, .b3, .b4, .b5, .b6{
+	.b1, .b2, .b3, .b4, .b5{
 		border-bottom:0.5px solid silver;
-		margin-top:15px;
+		margin-top:0px;
 	}
 	.box-1 h4{
 		font-size: 24px;
@@ -378,7 +379,9 @@
 			display:flex;
 			flex-wrap:wrap;
 			justify-content:;
-		}
+		gap:0px;
+		padding:0;
+	}
 	}
 	@media(min-width:1024px){
 		.sixbox{
@@ -559,11 +562,8 @@
 		color:white;
 		background-color:#428bca; 
 	}
-	.portimg img{
-		margin:10px 0px 10px 0px;
-	}
     .pi{
-		
+		margin-top:20px;
        position:relative;
 		
 	}
@@ -574,12 +574,12 @@
 	.app{
 		position:absolute;
 		top:0;
+		bottom:0;
+		left:0;
+		right:0;
 		opacity:0;
 		border:1px solid #0000009e;
-		width:100%;
-		height:76vh;
 		text-align:center;
-		margin-top:10px;
 		background-color: #0000009e;
 	}
 	.app h1{
@@ -615,6 +615,7 @@
 			flex-wrap:wrap;
 			justify-content:space-between;
 		}
+
 	}
 	@media(min-width:1024px){
 		.pi{
@@ -628,10 +629,16 @@
 		}
 	}
 /* portfolio section ends */
+
 .sara{
+	
 	position:relative;
 	width:100%;
 	margin-top:4rem;
+}
+.sara:hover img{
+	transform:scale(1.1);
+	transition: all 1s ease;
 }
 
 .white{
