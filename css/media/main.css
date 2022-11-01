@@ -1,0 +1,107 @@
+.container{
+	width:90%;
+	margin:auto;
+}
+@media(min-width:390px){
+.portfolio{
+		background-color:#f1f7fb;
+		padding-top:50px;
+		padding-bottom:50px;
+	}
+    .folio{
+		text-align:center;
+	}
+	.folio h1{
+		padding-top:20px;
+		font-size:2rem;
+		font-weight:600;
+		color:#5C768D;
+	}
+	.folio p{
+		color:gray;
+		font-size:1.1rem;
+		margin:10px 0px 0px 0px;
+		line-height:1.5;
+	}
+    .btn{
+		margin:20px 0px 20px 0px;
+		text-align:center;
+		
+	}
+	.btn a{
+		font-size:15px;
+		text-decoration:none;
+		padding:10px;
+		color:black;
+	}
+	.btn a:hover{
+		color:white;
+		background-color:#428bca; 
+	}
+    .pi{
+		margin-top:20px;
+       position:relative;
+		
+	}
+	.pi:hover .app{
+		opacity: 1;
+		transition: 1s ease;
+	}
+	.app{
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		opacity:0;
+		border:1px solid #0000009e;
+		text-align:center;
+		background-color: #0000009e;
+	}
+	.app h1{
+		font-size:1.4rem;
+		color:white;
+		margin-top:80px;
+	}
+	.app p{
+		font-size:1rem;
+		margin-top:15px;
+		color:white;
+	}
+	.app iconify-icon{
+		border:1px solid white;
+		border-radius:50%;
+		padding:10px;
+		margin-left:10px;
+		font-size:1.3rem;
+		color:#3498DB ;
+		margin-top:20px;
+		background-color:white ;
+	}
+	.app iconify-icon:hover{
+		color:white;
+		background-color:#3498DB ;
+	}
+}
+	@media(min-width:768px){
+		.pi{
+			width:49%;
+		}
+		.portimg{
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:space-between;
+		}
+
+	}
+	@media(min-width:1024px){
+		.pi{
+			width:32%
+		}
+		.portimg{
+			display:flex;
+		}
+		.app{
+			height:44vh;
+		}
+	}

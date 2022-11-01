@@ -1,0 +1,30 @@
+
+.box-1{
+		width:40%;
+		border:1px solid green;
+		position:relative;
+		height:40vh;
+		background-color:green;
+}
+.box-2{
+		position:absolute;
+		width:50%;
+		border:1px solid red;
+		background-color:red;
+		top:0;
+}
+.fixed{
+	position:fixed;
+	width:30%;
+	height:20vh;
+	background-color:purple;
+	right:0;
+	bottom:0;
+}
+.sticky{
+	position:sticky;
+	width:20%;
+	height:20vh;
+	background-color:yellow;
+	top:0;
+}
