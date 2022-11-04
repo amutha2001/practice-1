@@ -1,53 +1,14 @@
-<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>condition</title>
+    <title>task</title>
 </head>
 <body>
     <script>
-        <!-- let rev=0,rem; -->
-		<!-- let n=prompt("enter a number"); -->
-		<!-- while(n!=0) -->
-		<!-- { -->
-		<!-- rem=n%10; -->
-		<!-- rev=rev*10+rem; -->
-		<!-- n= Math.floor(n/10); -->
-		<!-- } -->
-		<!-- console.log("Reverse number : ",rev); -->
-		
-		
-		<!-- let i=1; -->
-		<!-- do{ -->
-		
-		    <!-- console.log("number is:",i); -->
-			<!-- i++; -->
-			<!-- } -->
-		    <!-- while(i<=10) -->
-			
-		<!-- let y=5;	 -->
-		<!-- while(y<10) -->
-		<!-- { -->
-		<!-- console.log("number is:",i); -->
-		<!-- i--; -->
-		<!-- } -->
-		
-		<!-- let hour=16; -->
-		<!-- if(hour>0 && hour<=13) -->
-		<!-- { -->
-		    <!-- document.write("good morning"); -->
-			<!-- } -->
-		<!-- else if(hour>=13 &&hour<=17) -->
-		<!-- {  -->
-		    <!-- document.write("good afternoon"); -->
-			<!-- } -->
-			<!-- else{ -->
-			   <!-- document.write("good evening"); -->
-			   <!-- } -->
-		
-		<!-- larger -->
+	
+	    <!-- larger -->
 		let a=10,b=20,c=40;
 		if(a>=b && a>=c)
 		{
@@ -161,7 +122,7 @@
 				
 				
 		<!-- greater than 10 or not -->
-		let e=11;
+		let e=6;
 		if(e>10)
 		{
 		    document.write("number is greater than 10");
@@ -170,11 +131,55 @@
 		else{
 		    document.write("number is not greater than 10");
 		}
-		
+		document.write("<br>");
 		
 			  
+	    <!-- sequence -->
 		
-	</script>
+		for(i=1; i<=10;i++)
+		{
+		   document.write(i);
+		   document.write("<br>");
+		   }
+	    
+		<!-- reverse -->
+		for(i=10; i>=1;i--)
+		{
+		   document.write(i);
+		   document.write("<br>");
+		   }
 	
+		 
+		 <!-- even -->
+		 for(i=2;i<=10;i++)
+		 {
+		 if(i%2==0)
+		 {
+		 document.write(i);
+		 }
+		 document.write("<br>");
+		 }
+		 <!-- odd -->
+		  for(i=1;i<=10;i++)
+		 {
+		 if(i%2!==0)
+		 {
+		 document.write(i);
+		 }
+		 document.write("<br>");
+		 }
+		<!-- swap -->
+		function swap(a,b){
+	       let t=a;
+		   a=b;
+		   b=t;
+		   return [a,b];
+		   
+			}
+			
+			document.write(swap(12,15));
+			
+			
+	</script>
 </body>
 </html>
