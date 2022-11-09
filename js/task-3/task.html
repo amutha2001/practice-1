@@ -81,10 +81,10 @@
 			let age=17;
 			if(age>=18)
 			{
-			    document.write("marriage is eligibility");
+			    document.write("eligibility");
 				}
 				else{
-				    document.write("marriage is not eligibility");
+				    document.write(" not eligibility");
 				}
 				document.write("<br>");
 			
@@ -173,12 +173,44 @@
 	       let t=a;
 		   a=b;
 		   b=t;
-		   return [a,b];
+		   document.write(a,b);
 		   
 			}
+			swap(12,15)
 			
-			document.write(swap(12,15));
+			document.write("<br>");
 			
+			
+	     for ( i = 65; i <= 73; i++) {
+              for(k=73;k>=i;k--)
+			  {
+			   document.write("&nbsp");
+			   }
+			  for (j=65; j<=i; j++) {
+			  if(i%2==0)
+			  {
+			  continue;
+			  }
+				document.write( String.fromCharCode(j));
+			  }
+			  
+			  document.write("<br>");
+			  
+			}
+			
+			let i,j;
+			let n=prompt("Enter anumber:");
+			for(i=1;i<=n;i++)
+			{
+			for(j=2;j<i;j++)
+			{
+			if(i%j==0)
+			break;
+			}
+			if(i==j)
+			document.write(i);
+			}
+			}
 			
 	</script>
 </body>

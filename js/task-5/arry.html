@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<body>
+    <script>
+	    let arr=[5,9,10,30,55,41];
+		document.write(arr.length);
+		document.write("<br>");
+		let i,max=0;
+	    for(i=0;i<arr.length;i++)
+		{
+		if(arr[i]>max)
+		  max=arr[i];
+		}
+		document.write(max);
+		
+		
+		let array=[5,9,10,30,55,41];
+		document.write(array.length);
+		document.write("<br>");
+		let j,min=array[0];
+	    for(j=0;j<array.length;j++)
+		{
+		if(array[j]<min)
+		  min=array[j];
+		}
+		document.write(min);
+		
+		
+		<!-- let salary=[10000,21000,8500,35000,2000,53000,73000]; -->
+		<!-- let maxvalue=math.max.apply(null,salary); -->
+		<!-- document.write(maxvalue); -->
+	</script>
+</body>
+</html>
