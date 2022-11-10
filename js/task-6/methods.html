@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>methodprogram</title>
+</head>
+<body>
+        <script>
+			<!-- let x=0; -->
+			<!-- document.write( String.fromCharCode(j)); -->
+			<!-- while(s[i]!=0) -->
+			<!-- { -->
+			   <!-- if(s[i]>='a' && s[i]<='z'){ -->
+				<!-- s[i]=s[i]-32; -->
+			<!-- } -->
+			<!-- ++i; -->
+			<!-- } -->
+			
+			const chocolate=["milk","Couverture","dark","white","semisweet"];
+			chocolate.forEach(function(chocol,i,array){
+			      console.log(i);
+				   console.log(chocol);
+				    console.log(array);
+			});
+			
+			const flowers=["rose","lotus","lilliy","sunflower"];
+			items=flowers.map(function(flower){
+			      return flower.toUpperCase();
+			});
+			console.log(items);
+			
+			let choco=["milk","Couverture","dark","white","semisweet"];
+			let arr=[];
+			for(i=0;i<choco.length;i++)
+			{
+			   arr[i]=choco[i].toUpperCase();
+			   }
+			   document.write(arr);
+			   
+			let number=[3,6,2,8];
+			number.splice(2,0,"mutton");
+			console.log(number);
+			  
+		</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>methods</title>
+	<style>
+	    table,thead,th,tr,td{
+		  border:1px solid ;
+		  border-collapse:collapse;
+		  }
+		  th{
+		  font-size:1.8rem;
+		  }
+		  th,td{
+		  padding:20px;
+		  }
+	</style>
+</head>
+<body>  
+    <table>
+	    <thead>
+		    <th>Method</th>
+			<th>Definition</th>
+			<th>Input</th>
+			<th>Output</th>
+		</thead>
+		<tbody>
+		<tbody>
+		    <tr>
+				<th>concat()</th>
+				<td>The concat() method joins two or more arrays</td>
+				<td>let arr1=["fish","mutton","biriyani"]
+				let arr2=["rose","lotus","sunflower"]</td>
+				<td>array=["fish","mutton","biriyani","rose","lotus","sunflower"]</td>
+		    </tr>
+			<tr>
+				<th>filter()</th>
+				<td>The filter() method creates a new array filled with elements</td>
+				<td>let arr1=[2003,2001,2018,2000,2022,2019]
+				2018>year</td>
+				<td>arr1=[2003,2001,2000]</td>
+		    </tr>
+			
+			<tr>
+				<th>findindex()</th>
+				<td>The findIndex() method returns the index of the first element in an array that satisfies the provided testing function.</td>
+				<td>foods=[{"name:biriyanni" price:200},{name:"mutton",price:250},{name:"chicken",price:50},{name:"fish meals",price:120}
+				let food=foods.findIndex(function(i){
+				return i.price>=200)}</td>
+				<td>0 ,1</td>
+		    </tr>
+			<tr>
+				<th>foreach()</th>
+				<td>The forEach() method calls a function for each element in an array.it is not return method. </td>
+				<td>chocolate=["milk","Couverture","semisweet"];
+				chocolate.forEach(function(chocol,i,array)</td>
+				<td>0 milk array[3],1 couverture array[3],2 semisweet array[3]</td>
+		    </tr>
+			<tr>
+				<th>map()</th>
+				<td>It is a return a new transformed of an array</td>
+				<td>flowers=["rose","lotus","lilliy","sunflower"];
+				items=flowers.map(function(flower){
+			      return flower.toUpperCase()};</td>
+				<td>flowers=["ROSE",LOTUS","LILLIY","SUNFLOWER"]</td>
+		    </tr>
+			
+			<tr>
+				<th>push()</th>
+				<td>adds one or more elements to the end of an array </td>
+				<td>let number=[3,6,2,8];
+				number.push["mutton"]</td>
+				<td>[3,6,2,8,"mutton"]</td>
+		    </tr>
+			<tr>
+				<th>unshift()</th>
+				<td>adds one or more elements to the begining of an array </td>
+				<td>let number=[3,6,2,8];
+				number.unshift["mutton"]</td>
+				<td>["mutton",3,6,2,8]</td>
+		    </tr>
+			<tr>
+				<th>splice()</th>
+				<td>adds one or more elements to our wish place of an array </td>
+				<td>let number=[3,6,2,8];
+				number.splice(2,0,"chicken")</td>
+				<td>["mutton",3,6,2,8]</td>
+		    </tr>
+			<tr>
+				<th>findlastindex()</th>
+				<td>returns the last index at which a given element can be found in the array, or -1 if it is not present. </td>
+				<td>let animal=["cat","deer","elephant","cat"];
+				animal.findLastIndex(cat)</td>
+				<td>3</td>
+		    </tr>
+			<tr>
+				<th>length()</th>
+				<td>A property of arrays in JavaScript that returns or sets the number of elements in a given array. </td>
+				<td>arry=[3,8,4,9,26,39];
+				arry.length;</td>
+				<td>6</td>
+		    </tr>
+			<tr>
+				<th>pop()</th>
+				<td>removes the last element from an array and returns that element.</td>
+				<td>arry=[3,8,4,9,26,39];
+				arry.pop;</td>
+				<td>array=[3,8,4,9,26]</td>
+		    </tr>
+			<tr>
+				<th>reduce()</th>
+				<td> used to reduce the array to a single value and executes a provided function for each value of the array </td>
+				<td> let arry=[3,2,6,1];
+				let i=6;
+				redue=array+i</td>
+				<td>18</td>
+		    </tr>
+			<tr>
+				<th>shift()</th>
+				<td>removes the first element from an array and returns that removed element. </td>
+				<td> let arr=[3,2,6,1];
+				arr.shift();</td>
+				<td>3,arr=[2,6,1]</td>
+		    </tr>
+			<tr>
+				<th>reverse()</th>
+				<td> reverses the order of the elements in an array. The reverse() method overwrites the original array. </td>
+				<td> let rev=[6,3,2,1];
+				rev.reverse();</td>
+				<td>rev=[1,2,3,6]</td>
+		    </tr>
+			<tr>
+				<th>localTimeString()</th>
+				<td>returns the time portion of a date object as a string, using locale conventions. </td>
+				<td>let date=new date();
+				console.log(date.localTimeString);</td>
+				<td>17:06:22PM</td>
+		    </tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
