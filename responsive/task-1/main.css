@@ -1,0 +1,332 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  left:0;
+  right:0;
+}
+.container{
+	margin:auto;
+	width:90%;
+}
+@media(min-width:390px){
+
+.header{
+	display:flex;
+	justify-content:center;
+}
+.menu{
+	display:flex;
+}
+.menu li{
+	padding:15px;
+}
+.menu li a{
+	text-decoration:none;
+	color:white;
+	font-size:1.2rem;
+}
+.menu li a:hover{
+	color:yellow;
+}
+.section1{
+	background-image:url("image/five.jpg");
+	background-size:cover;
+	height:100vh;
+}
+.menu{
+	display:none;
+}
+.head{
+	font-size:2rem;
+	color:white;
+	margin-top:13rem;
+	text-align:center;
+}
+.list{
+	font-size:2rem;
+	margin-top:0.8rem;
+	margin-left:3rem;
+	color:white;
+}
+}
+@media(min-width:1024px){
+	.menu{
+		display:block;
+		display:flex;
+	}
+	.list{
+		display:none;
+	}
+}
+/* about */
+@media(min-width:390px){
+	.me{
+		text-align:center;
+	}
+	.me h1{
+		font-size:2.8rem;
+        margin-top:3rem;
+	}
+	.me p{
+		font-size:1.3rem;
+		margin-top:1.2rem;
+	}
+	.aboutme{
+		margin-top:2rem;
+    }
+	.about-1{
+		width:100%;
+	}
+	.about-1 img{
+		width:100%;
+	}
+	.detail{
+		margin:1.1rem;
+	}
+	.detail p{
+		padding-top:1.2rem;
+		font-size:1.3rem;
+	}
+	.detail b{
+		font-weight:bold;
+	}
+	.range progress{
+	width:90%;
+	height:25px;
+	margin-top:px;
+	margin-left:1.8rem;
+    color:orange;
+	}
+	.range p{
+		padding-top:20px;
+		font-size:1.3rem;
+		margin-left:1.8rem;
+		display:inline-block;
+	}
+}
+@media(min-width:1024px){
+	.aboutme{
+		display:flex;
+		justify-content:space-between;
+	}
+	.about-1{
+		width:40%;
+	}
+	.about-2{
+		width:59%;
+    }
+}
+/* resume */
+/* .section5{ */
+	/* background-color:#81A7E8  ; */
+/* } */
+
+.my{
+	
+	margin-top:2rem;
+}
+
+.object h1{
+	font-size:1.8rem;
+	color:orange;
+	font-weight:bold;
+}
+.edu{
+	margin-top:2rem;
+}
+.edu h1{
+	font-size:1.8rem;
+	color:orange;
+	font-weight:bold;
+}
+.object p{
+	margin-top:1.3rem;
+}
+table{
+	margin-top:2rem;
+}
+      th
+      {
+        text-align:left;
+       }
+      table,th,td{
+        border:1px solid #000;
+        border-collapse:collapse;
+      }
+      th,td{
+        padding-top:5px;
+      }
+      tr:nth-child(even){
+        background-color:#fff;
+      }
+      tr:nth-child(odd){
+        background-color:orange;
+      }
+      h2,p{
+        text-align:center;
+      }
+.pro h1{
+	margin-top:2rem;
+	font-size:1.8rem;
+	color:orange;
+	font-weight:bold;
+}
+.pro ul{
+	list-style-type:square;
+	margin-top:1.5rem;
+	margin-left:3rem;
+}
+.per h1{
+	font-size:1.8rem;
+	color:orange;
+	font-weight:bold;
+}
+.per p{
+	margin-top:1.5rem;
+}
+.per b{
+	font-weight:bold;
+	font-size:1.5rem;
+}
+}
+@media(min-width:769px){
+     tr,th,td{
+		padding:1.3rem;
+}
+}
+@media(min-width:1024px){
+	th,td{
+        padding:20px;
+      }
+	.my{
+		display:flex;
+		justify-content:space-between;
+	}
+	.resume-1{
+		width:49%;
+		
+	}
+	.resume-2{
+		width:49%;
+	}
+}
+/* services */
+@media(min-width:390px){
+.section3{
+	padding-bottom:3rem;
+}
+.work{
+	width:100%;
+	padding:1.3rem;
+	text-align:center;
+	margin-top:1.5rem;
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+}
+.work iconify-icon{
+	font-size:3rem;
+	color:orange;
+	border:2px solid #FFF4DF;
+	border-radius:50%;
+	padding:10px;
+	background-color:#FFF4DF;
+}
+.work h1{
+	font-size:1.6rem;
+	margin-top:1.3rem;
+}
+.work p{
+	font-size:1.2rem;
+	margin-top:1.2rem;
+}
+}
+@media(min-width:769px){
+.ser{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.work{
+	width:49%;
+}
+}
+@media(min-width:1024px){
+.ser{
+	display:flex;
+	justify-content:space-between;
+	margin-top:2rem;
+}
+.work{
+	width:24%;
+}
+}
+@media(min-width:390px){
+	.amu{
+		width:25%;
+		margin:auto;
+		margin-top:8rem;
+	}
+	.amu img{
+		width:100%;
+		border-radius:50%;
+	}
+	.amutha{
+		text-align:center;
+		margin-top:1.6rem;
+		color:white;
+	}
+	.amutha iconify-icon{
+		color:orange;
+	}
+	.amutha h1{
+		font-size:2.3rem;
+		
+	}
+	.amutha p{
+		font-size:1.5rem;
+		margin-top:1rem;
+	}
+	.section4{
+		border:1px solid transparent;
+		background-image:url("image/flow.jpg");
+		background-size:cover;
+		position:relative;
+		background-attachment:fixed;
+		padding-bottom:8rem;
+	}
+@media(min-width:390px){
+	.resume-1{
+		 width:49%;
+	}
+	.resume-2{
+		 width:49%;
+	}
+	.my{
+		gap:8rem;
+	
+	}
+	.amu{
+		width:10%;
+	}
+}
+/* portfolio */
+.all{
+	text-align:center;
+	margin-top:2rem;
+}
+.all a{
+	margin-left:1.5rem;
+	text-decoration:none;
+	color:black;
+	padding:5px;
+}
+.all a:hover{
+	border:1px solid orange;
+}
+.port{
+	border:1px solid blue;
+	margin-top:2rem;
+}
+#solo{
+	border:1px solid orange;
+}
