@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for</title>
+</head>
+<body>
+     <script>
+	       let fruits={
+		   name:"fruit",
+		   color:"yellow",
+		   price:300,
+		   variety:["Apple" ,"Mango" ,"Orange" ,"Bannana"]
+		   };
+		   for(let fru in fruits){
+		   console.log(fru);
+		   console.log(fru +"-"+fruits[fru]);
+		   console.log(fruits[fru]); 
+		   }
+		   
+		   let chocolate=["dark","sweet","milk"];
+		   for (let cho in chocolate){
+		      console.log(cho);
+		   }
+		   
+		   let animals=["lion","deer","dog"];
+		   for (let ani of animals){
+		      console.log(ani);
+		   }
+		   
+	 </script>
+</body>
+</html>
