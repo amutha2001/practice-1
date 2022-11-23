@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+</head>
+<body>     
+	        <button onclick="myFunction()">click</button>
+		   <h1></h1>
+		   <script>
+		        function myFunction(){
+					  let heading=document.createElement("h1");
+					  heading.innerHTML="Animals";
+					  document.body.appendChild(heading);
+					  console.log(heading);
+		
+				   let unorderedList=document.createElement("ul");
+				   heading.appendChild(unorderedList);
+				   
+				   let listItem1=document.createElement("li");
+				   listItem1.textContent="dog";
+				   unorderedList.appendChild(listItem1);
+				   
+				   let listItem2=document.createElement("li");
+				   listItem2.textContent="deer";
+				   unorderedList.appendChild(listItem2);
+				   
+				   let listItem3=document.createElement("li");
+				   listItem3.textContent="cat";
+				   unorderedList.appendChild(listItem3);
+				   
+				   let listItem4=document.createElement("li");
+				   listItem4.textContent="elephant";
+				   unorderedList.appendChild(listItem4);
+			    }
+			</script>
+	
+</body>

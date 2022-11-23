@@ -1,0 +1,77 @@
+<!doctype html5>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>sort</title>
+</head>
+<body>
+
+       <p id="sort"></p>
+      <script>
+	        let person=[
+		   {
+		   id:1,
+		   passengerName:"Freddie Mercury",
+		   isVegetarianOrVegan:false,
+		   connectedFlights:2
+		   },
+		   {
+		   id:2,
+		   passengerName:"Amy Winehouse",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:4
+		   },
+		   {
+		   id:3,
+		   passengerName:"Kurt Cobain",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:3
+		   },
+		    {
+		   id:4,
+		   passengerName:"Michael Jackson",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:1
+		   }];
+		    let arra=[];
+		   person.forEach((name)=>{
+			    let names=name.passengerName;
+				arra.sort();
+			    arra.push(names);
+				
+				})
+				console.log(arra);
+				
+				
+		    let passengers=[
+		   {
+		   id:1,
+		   passengerName:"Freddie Mercury",
+		   isVegetarianOrVegan:false,
+		   connectedFlights:2
+		   },
+		   {
+		   id:2,
+		   passengerName:"Amy Winehouse",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:4
+		   },
+		   {
+		   id:3,
+		   passengerName:"Kurt Cobain",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:3
+		   },
+		    {
+		   id:4,
+		   passengerName:"Michael Jackson",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:1
+		   }];
+		   document.getElementById("sort").innerHTML = passengers;
+		            
+				
+	  </script>
+</body>

@@ -1,0 +1,40 @@
+*{
+margin:0px;
+padding:0;
+background-color:orange;
+}
+.pass{
+ position:absolute;
+ transform:translate(-50%,-50%);
+ top:50%;
+ left:50%;
+ width:300px;
+ }
+ input{
+  box-sizing:border-box;
+  width:100%;
+  font-size:18px;
+  border:none;
+  padding:10px 10px;
+  letter-spacing:0.5px;
+  color:#4a4a4a;
+  box-shadow:0px 5px 30px rgba(22,89,233,0.4);
+  }
+  ::placeholder{
+   color:yellow;
+   font-weight:400;
+   }
+   span{
+   position:absolute;
+   right:15px;
+   transform:translate(0,-50%);
+   top:50%;
+   cursor:pointer;
+   }
+   .fa{
+   font-size:20px;
+   color:red;
+   }
+#hide1{
+	display:none;
+}

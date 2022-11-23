@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    <script>
+	<!-- 2 -->
+	    let d=[1,2,3,4,5,6,7,8,9,10];
+		for(let i=0;i<10;i++){
+		setTimeout(()=>console.log(d[i]),1000);
+		}
+		for(let i=0;i<10;i++){
+		setTimeout(()=>console.log(d[i]),1000);
+		}
+	<!-- 5-->
+	let hero={
+	  powerLevel:99,
+	  getpower(){
+	    return this.powerLevel;
+		}
+	}
+	let get=hero.getpower();
+	console.log(get);
+	
+	<!-- 7 -->
+	let a=3,b=2;
+	add=a+b;
+	console.log(add+"7");
+	
+	<!-- 10 -->
+	    if(10>20&&20>10){
+		   console.log(10);
+		   }
+		   else{
+		   console.log(20);
+		   }
+		   if(10<20&&50%5==10){
+		       console.log(30);
+		   }if(10!==20||50/0==0){
+		   console.log(40);
+		   }
+		   
+		 <!-- 11 -->
+		 let sum=35;
+		 if(sum%10==0){
+		    console.log("a");
+		 }
+		 else if(sum%2==1){
+		     if(sum%5==0&&sum%2==0){
+		     console.log("b");
+		    }
+		 else if (sum%5==0){
+		      console.log("c");
+		    }else{
+		       console.log("d");
+		       }    
+       }			   
+	   else{
+		    console.log("e");
+		 }
+		 
+		 <!-- fix and buzz -->
+		 
+        for(n=1;n<=100;n++){
+		 if(n%3==0 && n%5==0)
+		 {
+		 console.log("fixbuzz");
+		 }
+		 else if(n%3==0)
+		 {
+		    console.log("fix");
+			}
+			else if(n%5==0){
+			     console.log("buzz");
+				 }	
+		    else{
+			  console.log(n);
+			  }
+        }				 
+		<!-- decimal or integer	  -->
+		let v=11;
+		   if(v%2==0)
+		   {
+		    console.log("interger");
+			}
+			else{
+			console.log("decimal");
+			}
+		
+		
+		    let arr=[5,6,9,14,56,13,24];
+            document.write(arr.length);
+			document.write("<br>");
+            for(i=0;i<=arr.length;i++)
+                {
+				  if(arr[i]%2==0)
+				  {
+				     document.write(arr[i]);
+					
+					  document.write("<br>");
+					 }
+					
+  			}
+			
+		   let passengers=[
+		   {
+		   id:1,
+		   passengerName:"Freddie Mercury",
+		   isVegetarianOrVegan:false,
+		   connectedFlights:2
+		   },
+		   {
+		   id:2,
+		   passengerName:"Amy Winehouse",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:4
+		   },
+		   {
+		   id:3,
+		   passengerName:"Kurt Cobain",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:3
+		   },
+		    {
+		   id:4,
+		   passengerName:"Michael Jackson",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:1
+		   }];
+            let arra=[];
+		    passengers.forEach((name)=>{
+			    let names=name.passengerName;
+			    arra.push(names);
+				
+				})
+				console.log(arra);
+		             
+		            
+					
+		    let person=[
+		   {
+		   id:1,
+		   passengerName:"Freddie Mercury",
+		   isVegetarianOrVegan:false,
+		   connectedFlights:2
+		   },
+		   {
+		   id:2,
+		   passengerName:"Amy Winehouse",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:4
+		   },
+		   {
+		   id:3,
+		   passengerName:"Kurt Cobain",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:3
+		   },
+		    {
+		   id:4,
+		   passengerName:"Michael Jackson",
+		   isVegetarianOrVegan:true,
+		   connectedFlights:1
+		   }];
+		    person.forEach((name)=>{
+			    let names=name.passengerName;
+			    names.sort(names);
+				console.log(names);
+				})
+				
+		             
+		            
+				
+    </script>	
+</body>
