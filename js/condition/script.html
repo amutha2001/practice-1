@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condition1</title>
+</head>
+<body>
+    <script>
+	    let a=prompt("enter a number a:");
+	    let b=prompt("enter a number b:");
+	    let c=prompt("enter a number c:");
+	    let d=prompt("enter a number d:");
+	  
+		
+		if(a>b){
+		    if(a>c)
+			{
+			   if(a>d){
+
+			     console.log("Number is a");
+				}
+			  else{
+			   console.log("Number is d");
+			   }
+			   }
+			else{
+			   if(c>d){
+			   console.log("Number is c"); 
+			
+			  }
+			  else{
+			     console.log("Number is d");
+				 }
+		    
+			}
+		}	
+		else{
+		   if(b>c){
+				  if(b>d)
+					 {
+					 console.log("Number is b");
+					 }
+				 else{
+					 console.log("Number is d");
+					 }
+					 }
+			else{
+              if(c>d){
+                   console.log("Number is c");
+                  }
+               else{
+                    console.log("Number is d");
+                    }
+             }
+		 }
+		
+		
+			   console.log("<br>");
+			  
+			  
+			  for(i=1;i<=5;i++)
+			  {
+			  for(j=1;j<=5;j++)
+			    {
+			  document.write(i);
+			  }
+			  document.write("<br>");
+			}
+			
+			for(i=1;i<=5;i++)
+			  {
+			  for(j=1;j<=i;j++)
+			    {
+			  document.write(i);
+			  }
+			  document.write("<br>");
+			}
+			
+	</script>
+</body>

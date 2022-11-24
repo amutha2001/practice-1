@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<body>
+     <script>
+	      let ar=[3,6,10,1,4];
+		arr=ar.length;
+		document.write(arr);
+		array=ar.unshift(5);
+		document.write("<br>");
+		document.write(ar);
+		document.write("<br>");
+		document.write(array);
+		
+		array=ar.unshift(5,21,11);
+		document.write("<br>");
+		document.write(ar);
+		document.write("<br>");
+		document.write(array);
+		
+		array=ar.unshift([5,21,11,10,35,28]);
+		document.write("<br>");
+		document.write(ar);
+		document.write("<br>");
+		document.write(array);
+		
+		
+		array=ar.unshift(["mutton","chicken","biriyani"]);
+		document.write("<br>");
+		document.write(ar);
+		document.write("<br>");
+		document.write(array);
+		
+		arr=ar.length;
+		document.write(arr);
+		array=ar.pop();
+		document.write("<br>");
+		document.write(ar);
+		document.write("<br>");
+		document.write(array);
+		
+		arr=ar.length;
+		document.write(arr);
+		array=ar.pop();
+		document.write("<br>");
+		document.write(ar);
+		document.write("<br>");
+		document.write(array);
+		
+		array=ar.shift();
+		document.write("<br>");
+		document.write(ar);
+		document.write("<br>");
+		document.write(array);
+		document.write("<br>");
+		<!-- splice -->
+		let num=[23,45,10,20];
+		b=num.splice(3);
+		console.log(b);
+		console.log(num);
+		
+		let num1=[23,45,10,20];
+		num2=num1.slice(1)                                                                          
+		console.log(num2);
+		console.log(num1);
+		
+		let rev=[56,34,25,15,10];
+		num3=rev.reverse();
+		console.log(num3);
+		console.log(rev);
+		<!-- indexof -->
+		
+		let ind=[56,34,25,15,10,25];
+		num4=ind.indexOf(25,-1);
+		console.log(num4);
+		
+		let last=[56,34,25,15,10,25];
+		num6=last.lastIndexOf(25,-1);
+		console.log(num6);
+		
+		let sort=[1,20,11,110];
+		num5=sort.sort();
+		console.log(num5);
+		
+		let str=[1,20,"food",110];
+		num7=str.toString();
+		console.log(num7);
+		
+		let jon=[1,20,"food",110];
+		num8=jon.join("_");
+		console.log(num8);
+	 </script>
+</body>
