@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matrix</title>
+</head>
+<body>
+    <script>
+	     <!-- 2 cross 2 -->
+	    let a=[  
+		        [1,2],
+				[3,4]
+				];
+		let b=[  
+		       [5,6],
+				[7,8]
+				];
+				
+			document.write("matrix 1:<br>");
+			
+			for(let i=0; i<2;i++)
+			{
+			for(let j=0;j<2;j++)
+			{
+			  document.write(a[i][j]+"&nbsp;&nbsp;&nbsp;" );
+			  }
+			  document.write("<br>");
+			  }
+			  
+			 document.write("matrix 2:<br>");
+			for(i=0; i<2;i++)
+			{
+			for(j=0;j<2;j++)
+			{
+			  document.write(b[i][j]+"&nbsp;&nbsp;&nbsp;");
+			  }
+			   document.write("<br>");
+			  }
+			  let c=[[],[]];
+			  for(i=1; i<2;i++)
+			   {
+			  for(j=1;j<2;j++)
+			   {    
+			       c[i][j]=a[i][j]+b[i][j];   
+				   }                           
+				   }
+				   
+				document.write("matrix 3:<br>");
+				for(i=0; i<2;i++)
+				{
+				for(j=0;j<2;j++)
+				{
+				  document.write(c[i][j]+"&nbsp;&nbsp;&nbsp;");
+				  }
+				   document.write("<br>");
+				  } 
+                <!-- 3 cross 3				   -->
+				  
+				let mat1=[  
+				           [1,2,3],
+						   [4,5,6],    
+						   [7,8,9]
+						   ];
+						                
+				let mat2=[  
+				           [2,6,3],
+						   [4,7,8],  
+						   [5,11,1]
+						   ];
+                let mat3=[
+				           [0,0,0],
+						   [0,0,0],
+						   [0,0,0]
+						   ];				
+                document.write("matrix 1:<br>");
+				
+				for(i=0; i<3;i++)
+				{
+				for(j=0;j<3;j++)
+				{
+				  document.write(mat1[i][j]+"&nbsp;&nbsp;&nbsp;");
+				  }
+				   document.write("<br>");
+				  }   
+				  
+				  document.write("matrix 2:<br>");
+				
+				for(i=0; i<3;i++)
+				{
+				for(j=0;j<3;j++)
+				{
+				  document.write(mat2[i][j]+"&nbsp;&nbsp;&nbsp;");
+				  }
+				   document.write("<br>");
+				  } 
+				  
+                 for(i=0; i<3;i++)                                                  
+				{
+				for(j=1;j<3;j++)
+				{	                              
+                    for(k=0;k<3;k++){
+					
+                         mat3[i][j]=mat3[i][j]+mat1[i][k]*mat2[k][j];   
+						}
+                     }
+                }
+               		 
+				  document.write("matrix 3:<br>");
+				
+				for(i=0; i<3;i++)
+				{
+				for(j=0;j<3;j++)
+				{
+				  document.write(mat3[i][j]+"&nbsp;&nbsp;&nbsp;");
+				  }
+				   document.write("<br>");
+				  } 
+
+                    <!-- Transpose				   -->
+					let matri=[   
+					            [1,1,1],  
+								[2,2,2],    
+								[3,3,3]   
+								];                     														
+							document.write("matrix:<br>");
+	                        let row,col;
+							for(row=0; row<3;row++)
+								{
+								for(col=0;col<3;col++)
+								{
+								  document.write(matri[row][col]+"&nbsp;&nbsp;&nbsp;");
+								  }
+								   document.write("<br>");
+								  } 
+								  
+							let trans=[[],[],[]];
+					        for(row=0; row<3;row++)
+								{
+								for(col=0;col<3;col++)
+								{       
+								   trans[row][col]=matri[col][row];
+								   }
+								   
+								   }
+						    for(row=0; row<3;row++)
+								{
+								for(col=0;col<3;col++)
+								{
+								   document.write(trans[row][col]+"&nbsp;&nbsp;&nbsp;");
+								   }
+								   document.write("<br>");
+								   }
+								
+                                let d=13,mon=10,yr=2001;
+								 date=mon+"/"+d+"/"+yr;
+								 console.log(date);
+								let now=new Date(date);
+								 console.log(now);
+								 day=now.getDay(now);
+								console.log(day);
+								 <!-- out=gn_date-((24*60*60*1000)*(fn_day-1)); -->
+								 <!-- console.log(out); -->
+								 <!-- output=new Date(out); -->
+								 <!-- console.log(output);								 -->
+								   
+								
+	</script>
+</body>
+</html>
