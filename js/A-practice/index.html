@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prac</title>
+</head>
+<body>
+       <script>
+	            //date
+	             <!-- let d=13,mon=8,yr=2001; -->
+				 <!-- date=mon+"/"+d+"/"+yr; -->
+				 <!-- console.log(date); -->
+				 <!-- let now=new Date(date); -->
+				<!-- console.log(now); -->
+				<!-- day=now.getDay(now); -->
+				<!-- console.log(day); -->
+				 <!-- out=now-((24*60*60*1000)); -->
+				<!-- console.log(out); -->
+				<!-- output=new Date(out); -->
+			    <!-- console.log(output);								 -->
+								   
+				<!-- //palindrome -->
+                <!-- let str=prompt("Enter the Word"),word; -->
+				 <!-- word=str.split(""); -->
+				 <!-- console.log(word); -->
+				 <!-- word=word.join(""); -->
+				<!-- if(str==word){ -->
+			     <!-- console.log("Given Word is Palindrome"); -->
+				 <!-- } -->
+				 <!-- else{ -->
+				     <!-- console.log("Given Word is not a Palindrome"); -->
+				<!-- } -->
+				
+				//pattern
+				<!-- let inpt=prompt("Enter the Value"), -->
+				<!-- number=inpt.replace(/[^a-zA-Z]/g,""); -->
+				 <!-- document.write(number); -->
+				 <!-- let string=inpt.replace(/[^0-9]/g,""); -->
+				 <!-- document.write(string); -->
+				 
+				 <!-- function omit(get){ -->
+                 <!-- let num=get.replace(/[^a-zA-Z]/g,""), -->
+                 <!-- alpha=get.replace(/[^0-9]/g,""); -->
+                 <!-- return  num+alpha; -->
+
+                 <!-- } -->
+				 <!-- let para=prompt("Enter the value"); -->
+  				 <!-- res=omit(para); -->
+				 <!-- document.write(res); -->
+				 
+				 
+		        let stri="amutha",vowel="aeiou",a=0;
+				for(i=0;i<stri.length;i++)
+				{
+				for(j=0;j<vowel.length;j++)
+				{
+					if(stri[i]==vowel[j])
+					{
+					   a++;
+				    }
+				}
+				
+				}
+				document.write(a);
+				document.write("<br>");
+				if(a){
+                      document.write("This string is vowel");
+                    }
+                else{
+           			document.write("This string is no vowel");	
+				   }
+	   </script>
+</body>
