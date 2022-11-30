@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrofobj</title>
+</head>
+<body>
+       <script> 
+            let b=prompt("Enter a number")
+				let c;
+				v=object(b)
+		
+				
+		    function object(num){
+			   let brr=[];
+			    for(i=0;i<num;i++)
+				{
+				 c={
+				Name:"",
+				Age:"",
+				Degree:""
+				};
+	
+	            e=prompt("Enter a name");
+				c.Name=e;
+				f=prompt("Enter a age");
+				c.Age=f;
+				g=prompt("Enter a degree");
+				c.Degree=g;
+				brr[i]=c;
+				}
+				return brr;
+				}
+				console.log(v);
+				
+              
+				function name(arr){
+				   str1=prompt("Enter get the name");
+				  
+                for(i=0;i<arr.length;i++)
+                    {
+                      if(arr[i].Name===str1)
+                          {	
+                            console.log(arr[i].Name);
+                              }
+						   
+                        	
+                      }	
+					 
+					  
+                     return arr; 				  
+                }
+                y=name(v)	
+               
+                				
+	   </script>
+</body>
