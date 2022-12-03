@@ -1,0 +1,51 @@
+<!docutype html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-1</title>
+	
+</head>
+<body>
+<script>
+      for(i=0;i<5;i++)
+	  {
+	  for(j=0;j<=i;j++)
+	  {
+	     document.write("*");
+		 }
+		 document.write("<br>");
+		 }
+		 
+	document.write("<br>");
+	for(i=5;i>0;i--)
+	  {
+	  for(j=0;j<i;j++)
+	  {
+	     document.write("*");
+		 }
+		 document.write("<br>");
+		 }
+		 
+	    let arr=[[1,2,3],[4,5,6],[7,8,9]];
+		for(i=0;i<arr.length;i++)
+		{
+		console.log(arr[i]);
+		}
+		 var c=[];
+		 for(j=0;j<arr.length;j++)
+		 { 
+		 
+		   var total=arr[j].reduce(myfunc)
+		   c[j]=total;
+		   }
+		   function myfunc(prev,curr)
+		    {
+			    return prev+curr;
+				}
+			console.log(total);
+			console.log(c);
+			
+			
+			
+</script>
