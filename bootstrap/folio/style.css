@@ -11,7 +11,6 @@ width:85%;
 	font-weight:bold;
 	line-height:1.1;
 	color:white;
-	margin-top:5rem;
 }
 .head p{
 	font-size:1.6rem;
@@ -22,19 +21,15 @@ width:85%;
 .head{
 	margin-left:5rem;
 }
-.panner{
-	
-}
 .panner img{
 	width:100%;
 }
 .topNav{
-	background:linear-gradient(#00000087, #008000a6), url("image/second.png") ;
-	background-repeat:no-repeat;
-	height:100vh;
+	background: rgba(21, 5, 23, 0.5) linear-gradient(rgba(26, 0, 33, 0.5) 0%, rgba(26, 0, 33, 0.5) 5%, rgba(38, 6, 51, 0.5) 40%, rgba(147, 47, 69, 0.7) 76%, rgba(236, 97, 93, 0.7) 94%, rgba(236, 97, 93, 0.5) 100%) repeat scroll 0% 0%;
+    height:100vh;
 }
 .navbar-toggler{
-	margin-left:10rem;
+	margin-left:8rem;
 }
 }
 @media(min-width:769px){
@@ -42,12 +37,23 @@ width:85%;
 .head {
 	text-align:center;
 }
+.head a i{
+	font-size:1.5rem;
+	color:white;
+	border-radius:50%;
+	padding:15px;
+	background-color:red;
+}
+.head a i:hover{
+	background-color:#F1714B ;
+}
 .navbar-toggler{
 	margin:auto;
 }
 }
 @media(min-width:1024px){
 	.head h1{
+		margin-top:10rem;
        font-size:5rem;
 	}	 
 .head p{
@@ -56,11 +62,15 @@ width:85%;
 }
 @media(min-width:390px){
 	.pic{
-		width:60%;
+		width:40%;
 	}
 	.pic img{
 		width:100%;
-		border-radius:50%;
+	}
+	.obj{
+		margin-top:2rem;
+		font-size:1.4rem;
+		line-height:28px;
 	}
 	.detail p{
 		font-size:1.3rem;
@@ -75,7 +85,7 @@ width:85%;
 	}
 	.about h1::after{
 		content:"";
-		background-color:orange;
+		background-color:#F02113 ;
 		display:block;
 		width:15%;
 		height:1vh;
@@ -105,8 +115,12 @@ width:85%;
 @media(min-width:1024px){
 	.about h1::after{
 		width:8%;
-		height:0.4vh;
+		height:0.6vh;
+		margin-top:10px;
 }
+ .pic{
+	 width:70%;
+ }
 }
 /* portfolio */
 @media(min-width:390px){
@@ -137,11 +151,10 @@ width:85%;
 		text-align:center;
 		background-color: #0000009e;
 	}
-	.opa{
-		
-	}
 	.opa a{
-		margin-top:3rem;
+		border:1px solid red;
+		padding:10px;
+		background-color:red;
 		text-align:center;
 		font-size:2rem;
 		color:white;
@@ -149,11 +162,26 @@ width:85%;
 	}
 }
 .section3{
-	background-color:#ffbc0085;
 	padding-bottom:4rem;
 }
-.edu h1,h2{
+.edu{
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+	padding:40px;
+}
+.detail{
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+	width:90%;
+}
+.hob{
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+	padding-bottom:10px;
+}
+.edu h1{
 	font-size:2rem;
+	margin-top:1.2rem;
+}
+.edu h2{
+	font-size:1.7rem;
 	margin-top:1.2rem;
 }
 .edu p{
@@ -172,30 +200,80 @@ width:85%;
 	padding-top:1.3rem;
 	margin-left:4rem;
 }
-.section5{
-	/* margin-bottom:3rem; */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 0 20px;
+  width: 280px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
 }
-.contact iconify-icon{
-	font-size:2.5rem;
-	color:orange;
+
+.card .percent {
+  position: relative;
 }
-.contact p{
-	font-size:1.3rem;
-	padding-top:2rem;
+
+.card svg {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  transform: rotate(-90deg);
 }
-.contact a{
-	text-decoration:none;
-	color:black;
+
+.card svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #f0f0f0;
+  stroke-width: 10;
+  stroke-linecap: round;
 }
-.contact{
-	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
-	text-align:center;
-	padding-top:2rem;
-	padding-bottom:2rem;
+
+.card svg circle:last-of-type {
+  stroke-dasharray: 625px;
+  stroke-dashoffset: calc(625px - (625px * var(--percent)) / 100);
+  stroke: #3498db; 
 }
-.progress{
-	margin-top:2rem;
+
+.card .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-label{
-	font-size:1rem;
+
+.card .number h3 {
+  font-weight: 200;
+  font-size: 3.5rem;
+}
+
+.card .number h3 span {
+  font-size: 2rem;
+}
+
+.card .title h2 {
+  margin: 25px 0 0;
+}
+
+.card:nth-child(1) svg circle:last-of-type {
+  stroke: purple;
+}
+.mamb{
+	margin-left:6rem;
+	font-size:1.5rem;
+	margin-top:6rem;
+}
+.mamb p{
+	padding:10px;
+}
+.mamb b{
+	font-weight:bold;
+}
+.mamb img{
+		width:20%;
+		margin-top:20px;
 }
