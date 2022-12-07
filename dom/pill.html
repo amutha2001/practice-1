@@ -1,0 +1,28 @@
+<!docutype html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pill</title>
+	
+</head>
+
+<body>
+    <input type="text" id="mytext" value="" placeholder="Enter a value">
+    <input type="text" id="mytext1" value="" placeholder="Enter a value">
+    <input type="text" id="mytext2" value="" placeholder="Enter a value">
+    <input type="text" id="mytext3" value="" placeholder="Enter a value">
+	<button id="btn">click</button>
+    <script>
+	    let btn=document.getElementById("btn");
+		btn.addEventListener("click",myFunction);
+		function myFunction(){
+		 let inp=document.getElementById("mytext").value;
+		 let inp1=document.getElementById("mytext1").value;
+		 let inp2=2/100*300;
+		 let inp3=document.getElementById("mytext2").value=inp2;
+		 let total=eval("inp+inp3");
+		 let pill=document.getElementById("mytext3").value=total;
+		 }
+	</script>
+</body>
