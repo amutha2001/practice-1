@@ -1,0 +1,23 @@
+<!docutype html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palindrome</title>
+	
+</head>
+<body>
+    <script>
+function randomcolor(){
+ 	let a=Math.trunc(Math.random()*256),
+ 	b=Math.trunc(Math.random()*256),
+	c=Math.trunc(Math.random()*256),colors;
+	colors="rgb("+a+","+b+","+c+")";
+	document.body.style.background=colors;
+ 	console.log(colors);
+ }
+ randomcolor();
+ setInterval(randomcolor,2000);
+    </script>
+	</body>
+	</html>

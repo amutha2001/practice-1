@@ -1,0 +1,50 @@
+<!docutype html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palindrome</title>
+	
+</head>
+<body>
+    <script>
+		 //Palindrome Logical
+		 let str=prompt("Enter a string");
+		 let pali="";
+		 for(i=str.length-1;i>=0;i--)
+		 {
+		    pali=pali+str[i];
+			console.log(str.length);
+			}
+			if(pali==str){
+			   console.log("palindrome");
+			   }
+			   else{
+			      console.log("Not palindrome");
+				  }
+				  
+				  let stri=prompt("Enter the word");
+				  check=stri.split("");
+				  console.log(check);
+				  word=check.reverse();
+				  palin=word.join("");
+				  if(stri==palin){
+				    console.log("Given word is palindrome");
+					}
+					else{
+					   console.log("Given word is not palindrome");
+					   }
+				  <!-- let stri=prompt("Enter the Word"),check; -->
+				 <!-- check=str.split(""); -->
+				 <!-- console.log(check); -->
+				 <!-- check=check.reverse(); -->
+				 <!-- check=check.join(""); -->
+				 <!-- if(stri==check){ -->
+					 <!-- console.log("Given Word is Palindrome"); -->
+				 <!-- } -->
+				 <!-- else{ -->
+					 <!-- console.log("Given Word is not a Palindrome"); -->
+				 <!-- } -->
+	</script>
+</body>
+</html>
