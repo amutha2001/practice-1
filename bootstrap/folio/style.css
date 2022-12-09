@@ -5,12 +5,22 @@ width:85%;
 @media(min-width:390px){
 .navbar{
 	font-size:1.5rem;
+	padding:2rem;
 }
 .head h1{
 	font-size:3rem;
 	font-weight:bold;
 	line-height:1.1;
 	color:white;
+}
+.nav-link{
+	color:white !important;
+}
+.active{
+	color: #00FFFF !important;
+}
+.nav-link:hover{
+	color: #00FFFF !important;
 }
 .head p{
 	font-size:1.6rem;
@@ -25,7 +35,7 @@ width:85%;
 	width:100%;
 }
 .topNav{
-	background: rgba(21, 5, 23, 0.5) linear-gradient(rgba(26, 0, 33, 0.5) 0%, rgba(26, 0, 33, 0.5) 5%, rgba(38, 6, 51, 0.5) 40%, rgba(147, 47, 69, 0.7) 76%, rgba(236, 97, 93, 0.7) 94%, rgba(236, 97, 93, 0.5) 100%) repeat scroll 0% 0%;
+	background-color:#EC449B;
     height:100vh;
 }
 .navbar-toggler{
@@ -33,19 +43,14 @@ width:85%;
 }
 }
 @media(min-width:769px){
-
-.head {
-	text-align:center;
+.head{
+	text-align: center;
 }
-.head a i{
-	font-size:1.5rem;
-	color:white;
-	border-radius:50%;
-	padding:15px;
-	background-color:red;
-}
-.head a i:hover{
-	background-color:#F1714B ;
+.head a iconify-icon{
+	font-size:3rem;
+	color:blue;
+	padding-top:3rem;
+	cursor:pointer;
 }
 .navbar-toggler{
 	margin:auto;
@@ -61,6 +66,10 @@ width:85%;
 	}		
 }
 @media(min-width:390px){
+	.section2{
+		padding-top:2rem;
+		padding-bottom:4rem;
+	}
 	.pic{
 		width:40%;
 	}
@@ -80,12 +89,11 @@ width:85%;
 	}
 	.about{
 		font-size:2rem;
-		margin-top:3rem;
 		text-align:center;
 	}
 	.about h1::after{
 		content:"";
-		background-color:#F02113 ;
+		background-color:#EC449B ;
 		display:block;
 		width:15%;
 		height:1vh;
@@ -152,9 +160,9 @@ width:85%;
 		background-color: #0000009e;
 	}
 	.opa a{
-		border:1px solid red;
+		border:1px solid #EC449B;
 		padding:10px;
-		background-color:red;
+		background-color:#EC449B;
 		text-align:center;
 		font-size:2rem;
 		color:white;
@@ -162,35 +170,49 @@ width:85%;
 	}
 }
 .section3{
+	background-color: #00FFFF;
+	padding-bottom:4rem;
+}
+.section5{
+	padding-top:2rem;
+	padding-bottom:4rem;
+}
+.section4{
+	background-color:#00FFFF;
+	padding-top:2rem;
 	padding-bottom:4rem;
 }
 .edu{
-	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
-	padding:40px;
+	text-align:center;
 }
 .detail{
-	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+	text-align:center;
 	width:90%;
 }
 .hob{
-	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+	text-align:center;
 	padding-bottom:10px;
 }
 .edu h1{
 	font-size:2rem;
-	margin-top:1.2rem;
 }
 .edu h2{
 	font-size:1.7rem;
 	margin-top:1.2rem;
 }
 .edu p{
+	margin-top:1.5rem;
 	font-size:1.2rem;
 	padding-top:1.1rem;
 }
+.hob p{
+	font-size:1.2rem;
+	margin-top:1rem;
+	line-height:28px;
+}
 .hob h1{
 	font-size:2rem;
-	margin-top:4rem;
+	margin-top:2.5rem;
 }
 .hob ul{
 	font-size:1.2rem;
@@ -260,7 +282,10 @@ width:85%;
 }
 
 .card:nth-child(1) svg circle:last-of-type {
-  stroke: purple;
+  stroke:#EC449B;
+}
+.mamb .css{
+	width:16%;
 }
 .mamb{
 	margin-left:6rem;
@@ -276,4 +301,31 @@ width:85%;
 .mamb img{
 		width:20%;
 		margin-top:20px;
+}
+.address{
+	text-align:center;
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 5%);
+	padding-bottom:2rem;
+	padding-top:2rem;
+	margin-top:4rem;
+}
+.address iconify-icon{
+	font-size:2rem;
+	padding:12px;
+	color:#EC449B;
+	border-radius:50%;
+	background-color:#F4A9E2 ;
+}
+.address iconify-icon:hover{
+	background-color:#EC449B;
+	color:white;
+}
+.address h4{
+	font-size:1.8rem;
+	font-weight:bold;
+	padding-top:1.3rem;
+}
+.address p{
+	font-size:1.4rem;
+	padding-top:1.3rem;
 }
