@@ -1,0 +1,91 @@
+<!docutype html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textarea</title>
+	<style>
+	    .main{
+		    display:flex;
+			}
+	</style>
+	<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</head>
+
+<body>
+   <section class="main">
+       <div id="main1">
+	        <textarea id="input" cols="50" rows="20"></textarea>
+			<button id="btn">click</button>
+	   </div>
+	   <div id="main2">
+	   </div>
+	</section>
+	 <script>
+	     let btn=document.getElementById("btn");
+		 btn.addEventListener("click",myfunction);
+		 function myfunction(){
+		    let inp=document.getElementById("input");
+			let para=document.createElement("p");
+			let div2=document.getElementById("main2");
+			div2.appendChild(para);
+			para.innerHTML=inp.value;
+			let edit=document.createElement("button");
+			para.appendChild(edit);
+			edit.innerText="Edit";
+			let dele=document.createElement("button");
+            para.appendChild(dele);
+			dele.innerText="Delete";
+			edit.setAttribute("class","edi");
+		    dele.setAttribute("class","de");
+			//assinging the delete function for todo
+			
+			}
+		      
+			  
+			  <!-- const browserType = 'mozilla'; -->
+               <!-- const updated = browserType.replace('moz','van'); -->
+			   <!-- console.log(updated); -->
+			   
+			   <!-- let quote = 'To be or not to be'; -->
+				<!-- quote = quote.replaceAll('be','code'); -->
+
+				<!-- console.log(quote); -->
+				
+				<!-- const sgl = 'Single quotes.'; -->
+				<!-- const dbl = "Double quotes"; -->
+				<!-- console.log(sgl); -->
+				<!-- console.log(dbl); -->
+				
+				<!-- const browserType = 'mozilla'; -->
+
+				<!-- if (browserType.endsWith('zilla')) { -->
+				  <!-- console.log('Found zilla!'); -->
+				<!-- } else { -->
+				  <!-- console.log('No zilla here!'); -->
+				<!-- } -->
+				
+				<!-- const radData = 'My NaMe Is MuD'; -->
+<!-- console.log(radData.toLowerCase()); -->
+<!-- console.log(radData.toUpperCase()); -->
+
+                <!-- let person=new Person(); -->
+				<!-- function Person(){ -->
+			        <!-- this.name="amutha", -->
+					<!-- this.id=3 -->
+					<!-- } -->
+					<!-- person.name="vani"; -->
+					<!-- console.log(person); -->
+					<!-- let person2=new Person(); -->
+					<!-- person2.age=20; -->
+					<!-- console.log(person2); -->
+
+                <!-- function name(a,b){ -->
+				   <!-- let c=a+b; -->
+				   <!-- return c; -->
+				   <!-- } -->
+				   <!-- console.log(name()); -->
+				
+
+	 </script>
+</body>

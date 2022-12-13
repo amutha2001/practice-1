@@ -1,0 +1,77 @@
+<!docutype html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textarea</title>
+	<style>
+	    .main{
+		    display:flex;
+			}
+	</style>
+	<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</head>
+
+<body>
+   <section class="main">
+       <div id="main1">
+	        <textarea id="input" cols="50" rows="20"></textarea>
+			<button id="btn">click</button>
+	   </div>
+	   <div id="main2">
+	       <div class="todo">
+		       <p></p>
+			   <button></button>
+			   <button></button>
+		   </div>
+	   </div>
+	</section>
+	 <script>
+	    
+        btn=document.getElementById("btn");
+        btn.addEventListener("click",myfunc);
+        
+        function myfunc(){
+            let element=document.getElementById("main2");
+            let text=document.getElementById("input");
+            console.log(text.value);
+			
+			let tododisp=document createElement("div");
+			tododisp.setAttribute("class","tododis");
+			element.appendChild(tododisp);
+			
+			let pEle=document.createElement("p");
+			pEle.setAttribute("class","to-do");
+			tododisp.appendChild(pEle);
+			pEle.innerHTML=text.value;
+			
+			let edibtn=document.createElement("button");
+			tododisp.appendChild(edibtn);
+			edibtn.innerHTML="edit";
+			edibtn.setAttribute("class"," edit");
+			
+			let delbtn=document.createElement("button");
+			tododisp.appendChild(delbtn);
+			delbtn.innerHTML="delete";
+			delbtn.setAttribute("class","delete");
+			
+			let deletebtn=document.getElementById("delete");
+			console.log(deletebtn);
+			for(i=0;i<deletebtn.length;i++){
+			    deletebtn[i].addEventListener("click",delefun);
+				}
+			let reset=(text)=>{
+                 text.value="";
+                }
+                reset(text);
+            }				
+				function delefun(){
+				     console.log("sucess");
+					 this.parentNode.remove();
+					 }
+					 
+        
+		 
+    </script>
+	</body>
+	</html>
