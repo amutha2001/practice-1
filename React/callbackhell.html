@@ -1,0 +1,37 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hell</title>
+	
+</head>
+<body>
+    <script>
+	    function funOne(){
+      console.log("first");
+	  console.log("fourth");
+	   }
+	   
+	   function funTwo(fO){
+		  console.log("second");
+		  fO();
+		  console.log("third");
+	   }
+	   funTwo(funOne);
+	   
+	   
+	   
+	    let ab=function(){
+		    console.log("Hi this is first call");
+			},
+			cd=function(){
+			    console.log("Hi this is second call");
+				},
+			ef=function(){
+			    console.log("Hi this is third call");
+				},
+			gh=function(){
+			    console.log("Hi this is fourth call");
+				}
+			ab(cd);
+	</script>
