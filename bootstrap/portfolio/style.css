@@ -97,18 +97,14 @@ width:85%;
 	cursor:pointer;
 }
 .ico{
-	margin-top:8rem;
-	position:relative;
+	
+	color:white;
 }
 .ico li{
    	list-style:none;
 	font-size:3rem;
-	margin-top:30px;
 }
-.ico li:hover{
-	transform:translatex(30px);
-	transition:0.5s;
-}
+
 }
 @media(min-width:769px){
 .navbar a iconify-icon{
