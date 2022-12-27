@@ -10,7 +10,9 @@
    display:flex;
    justify-content: space-between;
    }
-
+.active{
+	color:#428bca!important;
+}
 .link{
 	
     display:flex;
@@ -67,10 +69,20 @@
 		
 	}
 }
+.navbar{
+	position:sticky;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:1;
+	background-color:white;
+}
 .head{
-	display:flex;
+    display:flex;
 	justify-content:space-between;
 }
+
 .logo{
 	text-align:center;
 	padding-top:0.8rem;
@@ -95,7 +107,6 @@
 .bar ul li a{
 	text-decoration:none;
 	font-size:1.2rem;
-	
 }
 .bar{
 	display:none;
@@ -121,11 +132,11 @@
       }
 	.bar li a{
 		text-decoration:none;
-		font-size:1.2rem;
-		color:72899D;
+		font-size:1.1rem;
+		color:black;
 	}
     .bar li a:hover{
-		color:#B4D1EA;
+		color:#428bca;
 	}
 	.list{
 		display:none;
@@ -161,7 +172,7 @@
 }
 .panner{
 	border:1px solid white;
-	height:80vh;
+	padding-bottom:10rem;
 	background: linear-gradient(#00000087, #000000a6), url(image/slide-3.jpg);
 	background-size:cover;
 }
@@ -234,6 +245,9 @@
 	padding-top:3rem;
 	line-height:1.5;
 }
+.abt{
+	box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 30%);
+}
 .us{
 	text-align:center;
 }
@@ -252,7 +266,7 @@
 }
 .lorem{
 	display:flex;
-	justify-content:space-between;
+	justify-content:;
 	margin-top:1rem;
 }
 .abticon{
@@ -286,11 +300,16 @@
 	
 }
 .lorem iconify-icon{
-	
-	padding:1.2rem;
+	width:65px;
+	height:64px;
+	display:flex;
+	margin-right:10px;
+	justify-content:center;
+	align-items:center;
 	font-size:1.5rem;
 	color:#428bca;
 	background-color:#f1f7fb;
+	border-radius:10px;
 }
 .lorem iconify-icon:hover{
 	color:white;
@@ -322,6 +341,9 @@
 		display:flex;
 		justify-content:space-between;
 	}
+	.lorem{
+		margin-right:10px;
+	}
 }
 @media(min-width:1024px){
     .us h1{
@@ -348,6 +370,9 @@
 		border-bottom:0.5px solid silver;
 		margin-top:0px;
 	}
+	.box-1{
+		padding:10px;
+	}
 	.box-1 h4{
 		font-size: 24px;
 		font-weight: 400;
@@ -366,7 +391,7 @@
 			width:100%;
 		}
 		.box-1{
-			width:49%;
+			width:47%;
 		}
 		.b1, .b3, .b5{
 			border-right:0.5px solid silver;
@@ -390,7 +415,7 @@
 			flex-wrap:wrap;
 		}
 		.box-1{
-			width:32%;
+			width:30%;
 		}
 		.b4, .b2{
 			border-right:0.5px solid silver;
@@ -476,14 +501,19 @@
 			align-items:center;
 			margin:20px 0px 20px 0px; 
 		}
-		.s1 iconify-icon{
+		.seri{
 			font-size:30px;
-			padding:20px;
+			width:70px;
+			height:70px;
+			margin:auto;
+			display:flex;
+			justify-content:center;
+			align-items:center;
 			border-radius: 50%;
 			color: #428bca;
 			box-shadow: 0px 0 25px rgb(0 0 0 / 15%);
 		}
-		.s1 iconify-icon:hover{
+		.seri:hover{
 			box-shadow:0px 0px 25px rgb(66 139 202/50%);
 		}
 		.s1 h3{
@@ -592,20 +622,29 @@
 		margin-top:15px;
 		color:white;
 	}
-	.app iconify-icon{
+	.folioico{
+		display:flex;
+		margin-left:7rem;
+	}
+	.porticon{
 		border:1px solid white;
 		border-radius:50%;
-		padding:10px;
+		width:44px;
+		height:44px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
 		margin-left:10px;
 		font-size:1.3rem;
 		color:#3498DB ;
 		margin-top:20px;
 		background-color:white ;
 	}
-	.app iconify-icon:hover{
+	.porticon:hover{
 		color:white;
 		background-color:#3498DB ;
 	}
+	
 	@media(min-width:768px){
 		.pi{
 			width:49%;
@@ -699,7 +738,7 @@
 	.white{
       width:70%;
 	}
-
+    
 }
 
 .ques{
@@ -752,10 +791,15 @@
 .mail p{
 	padding-top:10px;
 }
-.identy iconify-icon{
+.identy{
 	font-size:1.5rem;
 	border:1px dotted #3498DB;
-	padding:12px;
+	width:44px;
+	height:44px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
 	border-radius:50%;
 	color:#3498DB;
 }
@@ -777,24 +821,17 @@
 	    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
 		margin-top:30px;
 	}
-
+ 
 	.user input{
-		width:80%;
 		padding:12px;
-		margin-left:20px;
-		margin-top:20px;
-		border-color:1px solid silver
+		border: 1px solid #ccc;
 	}
      textarea{
-		 padding:11px;
-		margin-top:20px;
-		margin-left:20px;
-		width:80%;
+		padding:11px;
 		border-color:silver;
 	
 	}
 	.msg{
-		margin:30px 0px 20px 0px;
 		text-align:center;
 	}
 	.msg a{
@@ -873,14 +910,24 @@
 .mamba-1  b{
 	font-weight:bold;
 }
+.mamb{
+	display:flex;
+}
 .last i{
 	border:1px solid #768FA6;
-	padding:12px;
+	width:44px;
+	height:44px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	border-radius:50%;
 	margin:2px;
 	margin-top:15px;
 	background-color:#768FA6;
 	color:white;
+}
+.last i:hover{
+	background-color:#428bca;
 }
 .mamba-2{
 	margin-top:25px;
@@ -893,6 +940,9 @@
 .bottom{
 	margin-top:10px;
 	margin-left:20px;
+}
+.bottom li a:hover{
+	color:#3498DB;
 }
 .bottom li{
 	margin-top:15px;
@@ -942,8 +992,8 @@
 		width:45%;
 	}
     .letter input{
-	width:50%;
-	padding:10px;
+	    width:50%;
+	    padding:10px;
 	}
 	.letter a{
 		padding:10px;
