@@ -32,7 +32,7 @@
 	color:#EE7945!important;
 }
 .home{
-	height:150vh;
+	padding-bottom:3rem;
     background-color:#FEF8F5;
 }
 .head h1{
@@ -60,9 +60,6 @@
 	height:60vh;
 	background-size:cover;
 	margin-top:-20px;
-}
-.home{
-	height:150vh;
 }
 .head h1{
 	font-size:2.8rem;
@@ -94,7 +91,6 @@
 	margin-top:30px;
 }
 .home{
-	height:70vh;
 background-color:#FEF8F5;
 }
 .head h1{
@@ -332,13 +328,16 @@ background-color:#FEF8F5;
 		color:white;
 }
 .app iconify-icon{
+	     width:44px;
+		 height:44px;
+		 display:flex;
+		 justify-content:center;
+		 align-items:center;
 		border:1px solid white;
 		border-radius:50%;
-		margin-left:10px;
 		font-size:1.3rem;
 		color:#EE7741 ;
 		background-color:white ;
-		margin-top:80px;
 }
 .app iconify-icon:hover{
 		color:white;
