@@ -1,0 +1,37 @@
+<!docutype html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+	
+</head>
+<body>
+    <script>
+	    class student{
+			constructor(name,age,roll,mob){
+			   this.Name=name;
+			   this.Age=age;
+			   this.Roll=roll;
+			   this.Mob=mob;
+			}
+			}
+			<!-- const student1=new student("Amutha",21,03); -->
+			<!-- console.log(student1.Name); -->
+			class school extends student{
+			    constructor(name,Name,Age,Roll,Mob){
+				    super(Name,Age,Roll,Mob)
+					    this.school_name=name;
+						
+						}
+						
+			print(){
+			    return this.Name +"" +"studies in"+""+this.school_name+""+"school";
+				}
+				}
+				let school1=new school("punitha arulapper","Amutha",21,03,8821345678);
+				console.log(school1.print());
+				
+	</script>
+</body>
+</html>
