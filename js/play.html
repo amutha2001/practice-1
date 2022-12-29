@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repeat</title>
+</head>
+<body>
+    <script>
+	var head=[10,20,30,40,50];
+	var tail=[5,15,25,35,45];
+	var ladtop=[12,22,32,42];
+	var ladbottom=[7,17,27,37];
+	var randomvalue;
+	var player1value=1;
+	var player2value=1;
+	for(i=1;player1value<100&&player2value<100;i++)
+	{
+		if(i%2==0)
+		{
+		player2value=randomvaluegenerator(player2value);
+		console.log("The new Value for Player 2 is "+ player2value);
+		}
+		else
+		{
+		player1value=randomvaluegenerator(player1value);
+		console.log("The new Value for Player 1 is "+ player1value);
+		}
+
+	}
+	document.write("The Final Results");
+	if(player1value>player2value)
+	{
+		document.write("Player 1 Won");  
+	}
+	else
+	{
+		document.write("Player 2 Won");
+	}
+	function randomvaluegenerator(value)
+	{
+		randomvalue=Math.ceil(Math.random() * 6);
+		console.log("Dice Value is "+ randomvalue);
+		value=value+randomvalue;
+		console.log("The new Value is "+ value);
+		value=snake(value);
+		value=ladder(value);
+		return(value)
+	}
+
+		function snake(playervalue)
+		{
+
+			for(let i=0;i<head.length;i++){
+				if(head[i]==playervalue)
+				{
+				console.log("Snake bite at "+ playervalue);
+				playervalue=tail[i]
+				console.log("Landed in tail at "+ playervalue);
+				return playervalue;
+			   }
+			   else
+			   {
+				return playervalue;
+			   }
+			   
+			}
+		}
+		function ladder(playervalue)
+		{
+			for(let i=0;i<ladbottom.length;i++){
+				if(ladbottom[i]==playervalue){
+				console.log("Ladder bottom at "+ playervalue);
+				playervalue=ladtop[i]
+				console.log("Reached Ladder top at "+ playervalue);
+				return playervalue
+			   }
+			   else
+			   {
+				return playervalue;
+			   }
+			}
+		}
+	</script>
+	</body>
+	</html>
