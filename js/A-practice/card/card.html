@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+</head>
+<body>
+<section>
+    <div class="container">
+	    <header class="top">
+	        <div class="filter">
+				    <label>select car</label>
+					<select id="filter-option">
+					    <option value="All">All</option>
+					    <option value="All">bwm</option>
+					    <option value="All">audi</option>
+					    <option value="All">tata</option>
+					</select>
+			</div>
+	    </header>
+		<div id="cars">
+		    
+		</div>
+	</div>
+</section>
+<script>
+    var cardata=[
+	    {
+		  id:001,
+		  brand:"hyundai",
+		  model:"i20",
+		  year:2020,
+		  price:700000,
+		  type:"Luxury car",
+		  pic:"image/car1.jpg"
+		  },
+		  {
+		  id:002,
+		  brand:"hyundai",
+		  model:"i10",
+		  year:2020,
+		  price:800000,
+		  type:"Luxury car",
+		  pic:"image/car2.jpg"
+		  },
+		  {
+		  id:003,
+		  brand:"tata",
+		  model:"i15",
+		  year:2021,
+		  price:700000,
+		  type:"Luxury car",
+		  pic:"image/car3.jfif"
+		  },
+		  {
+		  id:004,
+		  brand:"bwm",
+		  model:"i40",
+		  year:2019,
+		  price:900000,
+		  type:"Luxury car",
+		  pic:"image/car4.jfif"
+		  }
+		  ];
+		  
+		  let carsEle=document.getElementById("cars");
+		  //function onLoadData(data){
+		   // carEle.innerHTML="";
+		  //create dom object
+		    cardata.forEach(function(obj){
+			    let image=document.createElement("div");
+				let item=document.createElement("div")
+			    let detail=document.createElement("div");
+			    let Model=document.createElement("div");
+			    let year=document.createElement("h3");
+			    let type=document.createElement("span");
+			    let price=document.createElement("h4");
+			
+		         item.setAttribute("class","items");
+			     image.setAttribute("class","img");
+				 detail.setAttribute("class","det");
+				
+				image.style.backgroundImage="url("+obj.pic+")";
+				Model.innerText=obj.Model;
+				year.innerText=obj.year;
+				type.innerText=obj.type;
+				price.innerText=obj.price;
+				
+				detail.append(Model,type,year,price);
+				item.append(image,detail);
+				carsEle.appendChild(item);
+})
+
+				
+</script>
+</body>
+</html>
