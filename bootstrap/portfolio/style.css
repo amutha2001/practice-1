@@ -71,9 +71,6 @@ width:85%;
 	font-size:1.3rem;
     padding-right: 11px;
 }
-.btn:hover{
-	color:orange;
-}
 .act{
 	margin-top:5rem;
 }
@@ -93,8 +90,10 @@ width:85%;
 	margin-top:2rem;
    	list-style:none;
 	font-size:3rem;
+	color:orange;
 }
-
+.icon{
+	color:orange;
 }
 @media(min-width:769px){
 .navbar a iconify-icon{

@@ -1,3 +1,4 @@
+
 @media(min-width:390px){
 .topNav{
 	position:sticky;
@@ -29,7 +30,14 @@
 	color:white;
 }
 .nav-link:hover{
-	color:#EE7945!important;
+	color:#EE7843!important;
+}
+.active{
+	 color:#EE7843!important;
+}
+ .btnico:hover{
+	 color:white;
+	 background-color:#EE7843!important;
 }
 .home{
 	padding-bottom:3rem;
@@ -178,12 +186,6 @@ background-color:#FEF8F5;
 	margin-top:1rem;
 	color:#A08F94;
 }
-.lorem iconify-icon{
-	font-size:3rem;
-	margin-top:20px;
-	color:#F39E7A;
-	margin-top:1rem;
-}
 .lorem h2{
 	font-size:1.5rem;
 	color:#7F6E66;
@@ -193,7 +195,6 @@ background-color:#FEF8F5;
 .lorem p{
 	font-size:1.2rem;
 	color:#9299A1;
-	font-weight:bold;
 	margin-top:0.5rem;
 }
 }
@@ -327,22 +328,31 @@ background-color:#FEF8F5;
 		margin-top:15px;
 		color:white;
 }
-.app iconify-icon{
-	     width:44px;
-		 height:44px;
-		 display:flex;
-		 justify-content:center;
-		 align-items:center;
+
+.folioico{
+		position:absolute;
+		display:flex;
+		left:7.5rem;
+		bottom:70px;
+		
+	}
+	.porticon{
 		border:1px solid white;
 		border-radius:50%;
+		width:44px;
+		height:44px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
 		font-size:1.3rem;
 		color:#EE7741 ;
 		background-color:white ;
-}
-.app iconify-icon:hover{
+	}
+	.porticon:hover{
 		color:white;
-		background-color:#EE7741;
-}
+		background-color:#EE7741 ;
+	}
+	
 /***frequency***/
 .accordion-button{
 	font-size:1.5rem;
