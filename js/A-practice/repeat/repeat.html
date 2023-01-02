@@ -8,41 +8,27 @@
 </head>
 <body>
     <script>
-	  <!-- let arr1=[1,2,8,9,8,8,3],arr2=[1,2,8,9,8,8,3]; -->
-	  <!-- for(i=0;i<arr1.length;i++){ -->
-	  <!-- for(j=0;j<arr2.length;j++){ -->
-	    <!-- if(arr1[i]==arr2[j]){ -->
-		    <!-- console.log(arr1[i]); -->
-			<!-- } -->
-			<!-- } -->
+	  <!-- let arr=[1,2,8,9,8,8,3]; -->
+	  <!-- for(i=0;i<arr.length;i++){ -->
+	  <!-- for(j=i+1;j<arr.length;j++){ -->
+	    <!-- if(arr[i]==arr[j]){ -->
+		    <!-- document.write(arr[j]); -->
 			<!-- } -->
 			
-	    let users=[{
-		     name:"amutha",
-			 id:2,
-			 email:"amutha@123",
-			 },
-			 {
-		     name:"moni",
-			 id:1,
-			 email:"moni@123"
-			 },
-			 {
-		     name:"saran",
-			 id:3,
-			 email:"saran@123"
-			 },
-			 {
-		     name:"anitha",
-			 id:4,
-			 email:"anitha@123"
-			 }]
-			 for (let i of users){
-			      console.log(i);
-				  }
-		     for (let j in i){
-			      console.log(j);
-				  }
+			<!-- } -->
+			
+			<!-- } -->
+			
+	    let arr=[0,0,1,1,2,2,3,3];
+		let newindex;
+		for(let i=1;i<arr.length;i++){
+		   if(arr[i-1]!=arr[i]){
+		       arr[newindex]=arr[i];
+			   newindex++;
+			   }
+			   
+			   }
+			   console.log(arr[newindex]);
 			
 	</script>
 	</body>

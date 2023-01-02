@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>card</title>
+	<link rel="stylesheet" href="card.css">
 </head>
 <body>
 <section>
@@ -66,10 +67,11 @@
 		  ];
 		  
 		  let carsEle=document.getElementById("cars");
-		  //function onLoadData(data){
-		   // carEle.innerHTML="";
+		  function onLoadData(data){
+		   carEle.innerHTML="";
 		  //create dom object
-		    cardata.forEach(function(obj){
+		  
+		    data.forEach(function(obj){
 			    let image=document.createElement("div");
 				let item=document.createElement("div")
 			    let detail=document.createElement("div");
@@ -92,7 +94,15 @@
 				item.append(image,detail);
 				carsEle.appendChild(item);
 })
+}
 
+let filterCars=document.getElementById("filter");
+filterCars.addEventListener("change",function(event){
+    let filterCarData;
+	event.target.value==="All"? filterCarData=cardata: filterCarData=cardata.filter(e=>e.Model===event.target.value);
+	onLoadData( filterCarData);
+	})
+	window.Load= onLoadData(cardata);
 				
 </script>
 </body>
