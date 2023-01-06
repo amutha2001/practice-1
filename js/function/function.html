@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>repeat</title>
+    <title>function</title>
 </head>
 <body>
+                       <!-- function -->
+			<!-- function is a block or set of statement that performs task or calculates a value -->
+				
+				<!-- function is a called again and again -->
     <script>
-                 function name(num1,num2){
+
+                  <!-- with argument  with out return-->
+                 function add(num1,num2){
 					let sum=num1+num2;
 					console.log(sum);
 					}
-					total=name(2,5)
+					add(2,5)
+					
+					<!-- with argument with return  -->
+					function arith(a,b){
+					   let c=a+b;
+					   let d=a-b;
+					   let e=a*b;
+					   let f=a/b;
+					   return [c,d,e,f]
+					   }
+					   matic=arith(10,20);
+					   document.write(matic);
+					   
+					   <!-- without argument without return -->
+					   function color(){
+					       console.log("pink");
+						   }
+						   color();
+						   
+					 <!-- without argument with return -->
+					   function color(){
+					       let a=10;
+						   let b=20;
+					      let c=a+b;
+						  return c
+						   }
+						   var d=color();
+						   console.log(d);
 	</script>
+</body>
+</html>
