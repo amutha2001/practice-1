@@ -1,0 +1,40 @@
+<!docutype html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bmi</title>
+</head>
+<body>
+
+     
+	
+	<!-- BMI -->
+	<input type="text" id="height" value="" placeholder="enter height"><br><br>
+	<input type="text" id="weight" value="" placeholder="enter weight"><br><br>
+	<input type="text" id="age" value="" placeholder="enter age"><br><br>
+	<button type="button" id="btn">click button</button>
+	<input type="text" id="res" value="" placeholder="reselt">
+	<script>
+		let but=document.getElementById("but");
+		but.addEventListener("click",name);
+		function name(){
+			let input =document.getElementById("mytext").value
+			
+			document.getElementById("para").value=input
+		}
+		
+		//BMI claculator
+		let btn=document.getElementById("btn");
+		btn.addEventListener("click",funname);
+		function funname(){
+			let hei =document.getElementById("height").value
+			let wei =document.getElementById("weight").value
+			let age =document.getElementById("age").value
+			var bmi = wei/(hei/100*hei/100);
+			document.getElementById("res").value=bmi
+			
+		}
+		
+	</script>
+</body>

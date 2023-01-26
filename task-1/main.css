@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+}
+	
+#sectionA{
+	border:2px solid red;
+	width:99%;
+	height:auto;
+	margin:5px;
+	background-color:white;
+}
+.sectiona{
+	background:url(baker.jpg);
+	width:100%;
+	height:73vh;
+	background-size:cover;
+	padding-top:0px;
+}
+.diva{
+	background-color:4A5265;
+    width:100%;
+    height:110px;
+	position:fixed;
+    padding-top:-30px;
+	top:0;
+	left:0;
+}
+.divia{
+	
+	width:10%; 
+    height:30px; 
+    margin-top:20px;
+	margin-left:30px;
+}
+.divia {
+	color:white;
+	font-size:30px;
+	font-family: 'Poppins', sans-serif;
+	margin-top:-10px;
+    
+}
+.divib{
+	
+	width:65%;
+	margin-left:450px;
+	 margin-top:-50px;
+	 padding-top:-70px;
+	
+}
+
+.nav{
+	display:flex;
+	margin-right:100px;
+	padding:10px;
+	margin-top:30px;
+}
+.nav li{
+	list-style:none;
+	padding:5px;
+	margin-top:-10px;
+	font-size:18px;
+}
+.nav li a{
+	text-decoration:none;
+    padding:20px;
+	color:white;
+	
+}
+.nav li a:hover{
+	color:orange;
+}
+ul li.active a{
+	color:orange;
+	
+}
+.nav{
+	position:relative;
+}
+.nav li:nth-child(7):hover .dropdown1{
+	display:block;
+}
+.dropdown1{
+	position:absolute;
+	right:1%;
+	top:100%;
+	display:none;
+	transition:2s;
+}
+.dropdown1 li{
+	padding-top:20px;
+}
+.deepdropdown{
+	position:absolute;
+	right:100%;
+	top:10%;
+	width:100%;
+	display:none;
+}
+.deepdropdown li{
+	padding-top:-20px;
+}
+.dropdown1 li:nth-child(2):hover .deepdropdown{
+	display:block;
+}
+
+
+.deepdropdown:hover{
+	display:block;
+	
+}
+.deepdropdown li a{
+	padding:12px 0px 10px 17px;
+}
+.drop::after{
+	position:absolute;
+}	

@@ -3,21 +3,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>palindrome</title>
+    <title>color</title>
 	
 </head>
 <body>
     <script>
-function randomcolor(){
- 	let a=Math.trunc(Math.random()*256),
- 	b=Math.trunc(Math.random()*256),
-	c=Math.trunc(Math.random()*256),colors;
-	colors="rgb("+a+","+b+","+c+")";
+	var btn=document.createElement("button");
+	document.body.appendChild(btn);
+	btn.addEventListener("click",color)
+	btn.innerHTML="click";
+  function color(){
+ 	let red=Math.trunc(Math.random()*256),
+ 	green=Math.trunc(Math.random()*256),
+	blue=Math.trunc(Math.random()*256),colors;
+	colors="rgb("+red+","+green+","+blue+")";
 	document.body.style.background=colors;
  	console.log(colors);
  }
- randomcolor();
- setInterval(randomcolor,2000);
+ 
     </script>
 	</body>
 	</html>

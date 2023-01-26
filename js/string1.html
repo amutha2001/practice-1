@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vowel</title>
+</head>
+<body>
+    <script>
+	   var string1="Amutha",string2="monisha";
+	   function string(vow1){
+	       let count=0;
+	       for(i=0;i<vow1.length;i++){
+		       if(vow1[i]=="a"||vow1[i]=="e"||vow1[i]=="i"||vow1[i]=="o"||vow1[i]=="u"){
+			         count++;
+			   }
+		   }
+		   return count;
+	   }
+	   
+	   
+	   function compare(){
+	      var vow2=string(string1)
+	      var vow3=string(string2)
+		  if(vow2>vow3){
+		      console.log(vow2);
+			  }
+			  else{
+			     console.log(vow3);
+				 }
+		
+	   }
+	   compare()
+	</script>
+	</body>

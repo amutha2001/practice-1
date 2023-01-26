@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-eqiv="X-UA-compatible" content="IE=Rdge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>string_method</title>
+</head>
+<body>
+
+   <script>
+   
+      // two ways of javascript string method 
+	  // 1 string literal
+	  // 2 string object (new keyword)
+	  
+	  
+	  // 1 string literal
+	  
+	  let str = 'amutha';
+	  document.write(str);
+	  document.write('<br>');
+	  
+	  // 2 string object
+	  
+	  let nstr = new String("hi");
+	  document.write(nstr);
+	  document.write('<br>');
+	  
+	  // methods
+	   // 1 indexOf
+	  
+	  let a1 = "javascript is a scripting language";
+	  let a2 = a1.indexOf('v');
+	  document.write(a2);
+	  document.write('<br>');
+	  
+	  
+	  // 2 charAt method
+	  
+	  let charA = "sivagamipuram";
+	  document.write(charA.charAt(0));
+	  document.write('<br>');
+	  
+	  // 3 concat
+	  
+	  let c1 = "I am";
+	  let c2 = " Amutha";
+	  let c3 = c1.concat(c2);
+	  document.write(c3);
+	  document.write('<br>');
+	  
+	 
+	  
+	  // 5 lastindexOf
+	  
+	  let b1 = "i am frondend developer";
+	  let b2 = b1.lastIndexOf("r");
+	  document.write(b2);
+	  document.write('<br>');
+	  
+	  // 6 toLowerCase()
+	  
+	  let low = 'Javascript';
+	  let low1 = low.toLowerCase();
+	  document.write(low1);
+	  document.write('<br>');
+	  
+	  // 7 toUpperCase()
+	  
+	  let up = 'Amutha';
+	  let up1 = up.toUpperCase();
+	  document.write(up1);
+	  document.write('<br>');
+	  
+	  // 8 slice()
+	  
+	  let s = 'javascript';
+	  let s1 = s.slice(3,6);
+      document.write(s1);
+      document.write('<br>');	
+
+      // 9 trim()
+	  
+	  let t = '  amma ';
+	  let t1 = t.trim();
+	  document.write(t1);
+	  document.write('<br>');
+	  
+	  // 10 split()
+	  
+	  let sp1 = 'javascript';
+	  let sp2 = sp1.split('');
+	  document.write(sp2);
+	  document.write('<br>');
+	  
+	  
+	  
+	 // 11 replace
+	  
+	  let rep = 'kaviya';
+      document.write(rep.replace('n', 'nya'));
+      document.write('<br>');
+	  
+	  
+	  
+	 
+   </script>
+
+</body>
+</html>
