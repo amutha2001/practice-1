@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arraypro</title>
+</head>
+<body>
+    <script>
+	   var addi=[1,3,4,5];
+	   var value=addi.reduce(function(prev,curr){
+	        return prev+curr;
+			})
+			console.log(value);
+			
+		var even=[4,5,6,8,3];
+	     for(i=0;i<even.length;i++){
+		    if(even[i]%2==0){
+			    console.log(even[i]);
+				}
+				}
+			
+		var num=[4,5,6,7];
+		num.splice(2,2);
+		console.log(num);
+		var shift=num;
+		shift.unshift(1,2,3);
+		console.log(shift);
+		
+		var addition=[3,8,9,7,15];
+		var c=[];
+		  addition.forEach(function(add){
+		 if(add%2==0){
+		      c.push(add);
+			  }
+			  })
+		   var value=c.reduce(function(prev,curr){		   
+		         return prev+curr;
+			     })
+		       console.log(value);
+			   
+		<!-- var a=[2,3,4,5,6,7,10,12]; -->
+		<!-- var c=[]; -->
+	    <!-- a.forEach(function(b){ -->
+		    <!-- if(b%2==0){ -->
+			   <!-- c.push(b); -->
+			  <!-- }) -->
+			 
+		<!-- }); -->
+		<!-- console.log(c);   -->
+		
+		<!-- a=["a","f","g","h","i","k"]; -->
+		<!-- for(i -->
+		
+		<!-- var digit=[2,8,5,9,14,66,3,22,1]; -->
+		<!-- var two=[]; -->
+		<!-- digit.forEach((number)=>{ -->
+		  <!-- if(number>10){ -->
+		     <!-- two.push(number); -->
+			 <!-- } -->
+			 <!-- }) -->
+		 <!-- console.log(two); -->
+		 
+		 <!-- var n=11; -->
+		 <!-- var same=[11,12,21,22,23,33,34,40,44]; -->
+		 <!-- for(i=1;i<same.length;i++){ -->
+		    <!-- var table=same[i]*i; -->
+			<!-- if  -->
+			
+			
+		
+	</script>
+</body>
