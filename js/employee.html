@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee</title>
+</head>
+<body>
+    <script>
+	let employees = [
+   {
+       "id": 11,
+       "name":"Abhinav",
+       "salary":75000
+   },
+   {
+       "id": 2131,
+       "name":"Gaurav",
+       "salary":62000
+   },
+   {
+       "id": 3012,
+       "name":"Raj",
+       "salary":32000
+   }]
+   
+   <!-- var ployee=[]; -->
+   <!-- function worker(work){ -->
+    <!-- work.map(function(em){ -->
+	   <!-- console.log(em.id); -->
+	  <!-- ployee.push(em.id); -->
+	   
+	<!-- }); -->
+	<!-- return ployee; -->
+	<!-- } -->
+     
+    <!-- var idEle=worker(employees); -->
+	<!-- console.log(idEle); -->
+	
+	
+	var employee=employees.map(function(em){
+	      return em.id;
+	});
+	console.log(employee);
+	</script>
+</body>
+</html>
