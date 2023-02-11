@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>es6</title>
+</head>
+<body>
+    <script>
+	     function addition(a=0,b=0){
+		    return (a+b);
+		 }
+		 y=addition(10)
+		 x=addition();
+		 z=addition(50,30);
+		 
+		 function log(x,...a){
+		 <!-- if(b==undefined){ -->
+		   <!-- 1. console.log(x,a); -->
+		   let b=[14,30,a];
+		   console.log(b);
+			console.log("this value is:"+x+" ");
+			console.log(`this value is:${x} `);
+		 }
+		 <!-- else if(b==undefined&&c==undefined){ -->
+		     <!-- console.log(a,b); -->
+		 <!-- } -->
+		  <!-- else{ -->
+		     <!-- console.log(a,b,c); -->
+		 <!-- } -->
+		
+		log(y);
+	    log(y,z);
+		log(y,x,z,40);
+	
+		 console.log(y);
+		 console.log(y,z);
+		 console.log(y,z,x,40);
+		 
+	</script>
+</body>
+</html>
