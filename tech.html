@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+	<style>
+		.container{
+		    width:85%;
+			margin:auto;
+		}
+	    .main{
+		   width:100%;
+		}
+		.page{
+		    display:flex;
+		   justify-content:space-between;
+		}
+		.pic{
+		   width:43%;
+		}
+		img{
+		width:100%;
+		border:1px solid green;
+		}
+		.login{
+		  padding-top:13rem;
+		   width:59%;
+		   text-align:center;
+		}
+		button{
+		   background-color:green;
+		   border:none;
+		   font-size:1rem;
+		   padding:10px 170px 10px 170px;
+		   margin-top:1rem;
+		   color:white;
+		}
+		input{
+		  padding:12px;
+		}
+		
+	</style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+		    <div class="page">
+				<div class="pic">
+					<img src="back.jpg" />
+				</div>
+				<div class="login">
+					<h2>ACCOUNT LOGIN</h2>
+					    <input type="text" placeholder="UserName"id="inp1" >
+						<input type="password" placeholder="Password" id="password" >
+                    <div class="btn">
+					    <button id="btn" onClick="myfunc()">SIGN IN</button>
+                    </div>		
+                    <p>forget UserName/password?</p>					
+				</div>
+			</div>
+		</div>
+    </div>
+	<script>
+	    
+		function myfunc(){
+		    var input=document.getElementById("inp1").value
+		    var password=document.getElementById("password").value
+		
+		    if(input!==""&&password!==""){
+			
+			      window.location="file:///D:/Fabevy/practice/practice-1/new.html";
+			
+			}
+			else if(input===""&&password===""){
+					alert("please enter the userName");
+					alert("please  enter the password");
+			}
+			else if(inpue===""){
+					 alert("please enter the userName");
+			}
+			else if(password===""){
+					 alert("please  enter the password");
+			}
+		    
+		}
+	</script>
+</body>
+</html>
